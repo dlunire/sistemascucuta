@@ -1,0 +1,100 @@
+@use "sass:color";
+@use "../../../assets/sass/vars" as *;
+
+.header {
+    --top: 0;
+
+    position: sticky;
+    top: var(--top);
+
+    min-height: 20px;
+    z-index: 1000;
+    transition: 300ms;
+
+    --diagonal: 35px;
+    --clip-path: polygon(0 0,
+            100% 0,
+            calc(100% - var(--diagonal)) 100%,
+            var(--diagonal) 100%);
+
+    &__blackbar {
+
+        background-color: black;
+        height: 35px;
+        margin: 0 auto;
+        width: $width;
+        max-width: $max-width;
+        overflow: visible;
+        clip-path: var(--clip-path);
+
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    &__nav {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: 200ms ease;
+        transition-delay: 200ms;
+
+        &--red {
+            background-color: red;
+            background-image: linear-gradient(-45deg, rgba(black, 0.4), transparent);
+            clip-path: var(--clip-path);
+            height: 50px;
+            max-width: 900px;
+
+        }
+
+        &--open {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+            @media screen and (min-width: 650px) {
+                clip-path: var(--clip-path);
+            }
+
+
+        }
+    }
+
+    &__menu {
+        padding-right: calc(var(--diagonal) + 5px);
+
+        &--red {
+            color: white;
+        }
+    }
+
+    &__logo {
+        --icon-size: 100px;
+
+        --icon-width: var(--icon-size);
+        --icon-height: var(--icon-size);
+        --icon-color: white;
+
+        svg {
+            position: relative;
+            left: calc(var(--diagonal) + 10px);
+            top: 5px;
+            transition: 300ms ease;
+            transition-delay: 200ms;
+        }
+
+        &--open {
+
+            svg {
+                @media screen and (max-width: 650px) {
+                    left: 20px;
+                }
+            }
+        }
+    }
+}

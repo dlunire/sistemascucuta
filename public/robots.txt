@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Permitir el acceso a las imágenes para Open Graph y Twitter Cards
+User-agent: Twitterbot
+Allow: /preview.png
+
+User-agent: FacebookExternalHit
+Allow: /preview.png
+
+User-agent: LinkedInBot
+Allow: /preview.png
+
+# Evitar que los motores de búsqueda indexen archivos sensibles
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /private/
+
+# Evitar que se indexen parámetros innecesarios
+Disallow: /*?*
+
+# Sitemap
+Sitemap: https://norsire.netlify.app/sitemap.xml

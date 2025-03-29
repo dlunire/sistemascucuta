@@ -1,0 +1,29 @@
+{
+    "name": "Norsire - Seguridad de Residuos Biológicos",
+    "short_name": "Norsire",
+    "description": "Protege el medio ambiente con Norsire, la solución definitiva para la gestión segura de residuos biológicos.",
+    "lang": "es",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#bb000bff",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/favicon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/maskable-icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

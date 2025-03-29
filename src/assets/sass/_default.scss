@@ -1,0 +1,35 @@
+@use "sass:color";
+@use "./vars" as *;
+
+:root {
+    background-color: color.adjust($color: $backcolor, $lightness: -7%);
+
+    font: {
+        family: "Roboto", sans-serif, arial;
+    }
+
+    line-height: 1.5;
+}
+
+*,
+iframe {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: red;
+
+    &::before,
+    &::after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--icon-color);
+}

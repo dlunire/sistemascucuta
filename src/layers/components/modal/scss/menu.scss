@@ -1,0 +1,75 @@
+@use "sass:color";
+@use "../../../../assets/sass/vars" as *;
+
+.modal {
+
+    &-container {
+        position: fixed;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+        background-color: rgba(black, 0.3);
+
+        @media screen and (min-width: 650px) {
+            display: none;
+        }
+    }
+
+    & {
+        --top: 0px;
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(rgb(0, 7, 15), 0.9);
+        background-image: linear-gradient(45deg, rgba(black, 0.3), transparent);
+        color: white;
+        height: 100vh;
+        overflow: auto;
+        padding: 60px 0;
+        animation: 200ms ease open-windows forwards;
+        backdrop-filter: blur(10px);
+
+        padding-top: calc(60px + var(--top));
+    }
+
+    &__container {
+        padding: 20px;
+    }
+
+    &__title {
+        color: $base-color;
+        border-bottom: 1px solid rgba($base-color, 0.1);
+        background-color: rgba($base-color, 0.05);
+        padding: 5px 10px;
+        border-radius: 5px 5px 0 0;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 10px;
+        }
+
+        font: {
+            size: 1.2rem;
+        }
+    }
+}
+
+@keyframes open-windows {
+    from {
+        opacity: 0;
+        height: calc(100vh - 30px);
+        transform: scale(0.98) translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        height: 100vh;
+    }
+}

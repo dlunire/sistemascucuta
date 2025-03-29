@@ -1,0 +1,61 @@
+@use "sass:color";
+@use "../../../../assets/sass/vars" as *;
+
+.whatsapp {
+    position: fixed;
+    margin: auto;
+    left: auto;
+    right: 15px;
+    top: auto;
+    bottom: 45px;
+    transition: 300ms ease;
+    z-index: 100000;
+
+    @media screen and (max-width: 650px) {
+
+        & {
+            bottom: 55px;
+        }
+    }
+
+    &__link {
+        --icon-color: white;
+        --icon-size: 20px;
+
+        --icon-width: var(--icon-size);
+        --icon-height: var(--icon-size);
+
+        gap: 4px;
+        background-color: $whatsapp-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 20px 25px;
+        border-radius: 20px;
+        transition: 300ms ease;
+
+        @media screen and (max-width: 650px) {
+            span {
+                display: none;
+            }
+
+            & {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                padding: 0;
+                --icon-size: 30px;
+            }
+        }
+
+        &:hover {
+            background-color: color.adjust($color: $whatsapp-color, $lightness: -15%);
+        }
+
+        &:active {
+            transition: none;
+            background-color: $whatsapp-color;
+        }
+    }
+}

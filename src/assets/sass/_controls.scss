@@ -1,0 +1,141 @@
+@use "sass:color";
+@use "./vars" as *;
+
+.button {
+    background-color: transparent;
+    border: 0;
+    transition: 300ms ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--icon-color);
+    padding: 0 20px;
+    height: 30px;
+    border-radius: 3px;
+
+    svg {
+        display: block;
+        padding-bottom: 3px;
+    }
+
+    --icon-size: 20px;
+    --icon-width: var(--icon-size);
+    --icon-height: var(--icon-size);
+
+    cursor: pointer;
+
+    &:active {
+        transition: none;
+    }
+
+    &--menu {
+        height: 30px;
+        width: 55px;
+        border-radius: 5px;
+        position: absolute;
+        margin: auto;
+        left: auto;
+        right: calc(var(--diagonal) + 10px);
+        top: 0;
+        bottom: 0;
+
+        transition: 300ms ease !important;
+        transition-delay: 200ms !important;
+
+        span {
+            display: block;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: rgba(white, 0.9);
+            width: 50%;
+            border-radius: 2px;
+            pointer-events: none;
+            transform: scale(0deg);
+            transition: 300ms ease;
+
+            --y: 30%;
+
+            &:first-of-type {
+                top: var(--y);
+                // display: none !important;
+            }
+
+            &:nth-of-type(2) {
+                top: 0;
+                bottom: 0;
+            }
+
+            &:last-of-type {
+                bottom: var(--y);
+                animation: 300ms close-menu-2 ease forwards;
+            }
+        }
+
+        &:hover {
+            background-color: color.adjust($color: $base-color, $lightness: 10%);
+        }
+
+        &,
+        &:active {
+            background-color: transparent;
+        }
+
+        @media screen and (min-width: 650px) {
+            display: none;
+        }
+    }
+
+    &--open-menu {
+        right: 20px;
+    }
+
+    &--portfolio {
+        --icon-size: 30px;
+
+        height: 60px;
+        max-width: 340px;
+        width: $width;
+
+        display: flex;
+        margin: 0 auto;
+
+        &:hover {
+            background-color: rgba($base-color, 1);
+        }
+
+        &,
+        &:active {
+            background-color: rgba($base-color, 0.7);
+        }
+
+        & {
+            font: {
+                size: 1.5rem;
+            }
+        }
+    }
+
+    &--google-form {
+        display: flex;
+        height: 40px;
+        width: 140px;
+        padding: 0 80px;
+
+        --icon-color: white;
+        --icon-height: 25px;
+
+        &:hover {
+            background-color: color.adjust($color: $base-color, $lightness: 5%);
+        }
+
+        &,
+        &:active {
+            background-color: $base-color;
+        }
+    }
+}
