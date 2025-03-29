@@ -11,6 +11,11 @@ Este proyecto utiliza **Svelte con Vite** y se gestiona mediante **npm**.
 ###  Clonar el repositorio  
 ```bash
 git clone https://github.com/dlunamontilla/sistemascucuta.git
+```
+
+Y luego ingrese al directorio:
+
+```bash
 cd sistemascucuta
 ```
 
