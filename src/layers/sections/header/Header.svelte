@@ -6,6 +6,7 @@
     import { install } from "../../../lib/store";
     import { onDestroy, tick } from "svelte";
     import IconLogoSc from "../../icons/IconLogoSC.svelte";
+    import { screenTop } from "svelte/reactivity/window";
 
     export let menu: MenuItem[] = [];
 
@@ -49,24 +50,19 @@
     let change: boolean = false;
     let ticking: boolean = false;
 
-    addEventListener("scroll", function () {
-        if (!ticking) {
-            this.requestAnimationFrame(() => {
-                scroll();
-                ticking = false;
-            });
-
-            ticking = true;
-        }
+    addEventListener("scroll", function (event) {
+        scroll(event);
     });
 
-    function scroll(): void {
+    function scroll(event: Event): void {
         if (!(headerElement instanceof HTMLElement)) {
             return;
         }
 
         sizes = headerElement.getBoundingClientRect();
-        console.log({ top, ref: sizes.top });
+        const ref: number = sizes.top;
+
+        change = ref == top;
     }
 </script>
 
