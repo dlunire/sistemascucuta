@@ -4,7 +4,7 @@
     import type { Menu as MenuItem } from "../../../lib/interface/menu";
     import type { Size } from "../../../lib/interface/size";
     import { install } from "../../../lib/store";
-    import { onDestroy } from "svelte";
+    import { onDestroy, tick } from "svelte";
     import IconLogoSc from "../../icons/IconLogoSC.svelte";
 
     export let menu: MenuItem[] = [];
@@ -16,6 +16,8 @@
         width: 0,
         height: 0,
     };
+
+    let sizes: DOMRect | undefined = undefined;
 
     const unsubscribe = install.subscribe((currentSize: Size) => {
         size = currentSize;
@@ -32,7 +34,7 @@
             return;
         }
 
-        const sizes = element.getBoundingClientRect();
+        const sizes: DOMRect = element.getBoundingClientRect();
         size.width = sizes.width;
         size.height = sizes.height;
     }
@@ -43,15 +45,42 @@
 
     $: loadSize(headerElement);
     $: top = size.height * -1;
+
+    let change: boolean = false;
+    let ticking: boolean = false;
+
+    addEventListener("scroll", function () {
+        if (!ticking) {
+            this.requestAnimationFrame(() => {
+                scroll();
+                ticking = false;
+            });
+
+            ticking = true;
+        }
+    });
+
+    function scroll(): void {
+        if (!(headerElement instanceof HTMLElement)) {
+            return;
+        }
+
+        sizes = headerElement.getBoundingClientRect();
+        console.log({ top, ref: sizes.top });
+    }
 </script>
 
-<header class="header" style="--top: {top}px" bind:this={headerElement}>
-    <nav class="header__social-media">
+<header class="header" style="--top: {top}px">
+    <nav class="header__social-media" bind:this={headerElement}>
         <div class="header__social-inner">sdfasd</div>
     </nav>
 
     <nav class="header__nav header__nav--white" class:header__nav--open={open}>
-        <div class="header__logo" class:header__logo--open={open}>
+        <div
+            class="header__logo"
+            class:header__logo--open={open}
+            class:logo={change}
+        >
             <IconLogoSc />
         </div>
 
@@ -60,3 +89,13 @@
         </div>
     </nav>
 </header>
+
+<style lang="scss">
+    .logo {
+        --icon-size: 40px;
+    }
+
+    :global(svg) {
+        transition: 300ms ease;
+    }
+</style>
