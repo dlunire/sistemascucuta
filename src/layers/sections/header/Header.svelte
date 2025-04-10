@@ -31,7 +31,7 @@
 </script>
 
 <header class="header" style="--top: {top}px">
-    <div class="header__blackbar"></div>
+    <nav class="header__social-media"></nav>
 
     <nav class="header__nav header__nav--red" class:header__nav--open={open}>
         <div class="header__logo" class:header__logo--open={open}>
