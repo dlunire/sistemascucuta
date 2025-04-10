@@ -100,6 +100,17 @@
 
     &__social-media {
         background-color: $base-color;
-        min-height: 40px;
+        color: white;
+        height: 50px;
+        display: flex;
+    }
+
+    &__social-inner {
+        margin: 0 auto;
+        max-width: $max-width;
+        width: $width;
+
+        display: flex;
+        align-items: center;
     }
 }
