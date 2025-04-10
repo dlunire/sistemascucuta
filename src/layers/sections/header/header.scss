@@ -44,6 +44,7 @@
         justify-content: space-between;
         transition: 200ms ease;
         transition-delay: 200ms;
+        background-color: white;
 
         &--red {
             background-color: red;
@@ -60,8 +61,14 @@
             @media screen and (min-width: 650px) {
                 clip-path: var(--clip-path);
             }
+        }
 
+        &--white {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: $max-width;
 
+            --icon-color: black;
         }
     }
 
@@ -71,6 +78,10 @@
         &--red {
             color: white;
         }
+
+        &--white {
+            color: black;
+        }
     }
 
     &__logo {
@@ -78,7 +89,7 @@
 
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
-        --icon-color: white;
+        --icon-color: #{$base-color};
 
         svg {
             position: relative;
@@ -87,19 +98,10 @@
             transition: 300ms ease;
             transition-delay: 200ms;
         }
-
-        &--open {
-
-            svg {
-                @media screen and (max-width: 650px) {
-                    left: 20px;
-                }
-            }
-        }
     }
 
     &__social-media {
-        background-color: $base-color;
+        background-color: $desaturate-base-color;
         color: white;
         height: 50px;
         display: flex;

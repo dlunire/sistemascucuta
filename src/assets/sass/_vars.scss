@@ -1,6 +1,9 @@
+@use "sass:color";
+
 // Colores:
 $backcolor: white;
 $base-color: #001582ff;
+$desaturate-base-color: color.adjust($color: $base-color, $lightness: -14%, $saturation: -80%);
 $secondary-color: #f19000ff;
 $tertiary-color: #f7b115ff;
 
