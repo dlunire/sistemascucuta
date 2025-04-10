@@ -11,96 +11,20 @@
         size: 0.9rem;
     }
 
-    &__item {
-        padding-left: 0;
-        right: calc(var(--diagonal) + 5px);
-
-        &--white {
-            color: white;
-
-            &:not(:first-of-type) {
-                border-left: 1px solid rgba(white, 0.2);
-            }
-        }
-
-        &--horizontal {
-            $border-color: color.adjust($color: $base-color, $lightness: 30%);
-
-            &:not(:first-of-type) {
-                border-top: 1px solid rgba($border-color, 0.07);
-            }
-        }
-    }
+    &__item {}
 
     &__link {
-        text-decoration: none;
-        padding: 0 5px;
-        transition: 300ms ease;
+        --icon-size: 15px;
+        --icon-width: var(--icon-size);
+        --icon-height: var(--icon-size);
 
         display: flex;
         align-items: center;
-        gap: 3px;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 5px;
 
-        --icon-size: 15px;
-
-        --icon-height: var(--icon-size);
-        --icon-width: var(--icon-size);
-
-        svg {
-            padding-bottom: 2px;
-        }
-
-        &:active {
-            transition: none;
-        }
-
-        &--white {
-            --icon-color: white;
-
-            &:hover {
-                color: rgba(white, 0.8);
-                --icon-color: yellow;
-            }
-
-            &,
-            &:active {
-                color: white;
-            }
-        }
-
-        &--horizontal {
-            --icon-color: white;
-
-            transition: 300ms ease;
-            color: var(--icon-color);
-            padding: 10px;
-
-            &:hover {
-                background-color: rgba(#0080d4, 0.04);
-                transition: none;
-
-                --icon-color: rgb(119, 166, 255);
-            }
-
-            &,
-            &:active {
-                background-color: transparent;
-            }
-
-            &:active {
-                --icon-color: orange;
-            }
-        }
-    }
-
-    &--landscape {
-
-        @media screen and (max-width: 650px) {
-            display: none;
-        }
-    }
-
-    &--horizontal {
-        flex-direction: column;
+        text-transform: uppercase;
     }
 }
