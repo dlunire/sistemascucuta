@@ -41,12 +41,12 @@
         align-items: center;
         justify-content: space-between;
         transition: 200ms ease;
-        transition-delay: 200ms;
+        width: $width;
+        max-width: $max-width;
 
         &--white {
             padding-top: 20px;
             padding-bottom: 20px;
-            max-width: $max-width;
             margin: 0 auto;
             --icon-color: black;
         }

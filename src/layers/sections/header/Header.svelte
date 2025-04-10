@@ -69,7 +69,7 @@
     }
 </script>
 
-<header class="header" style="--top: {top}px">
+<header class="header" class:line={change} style="--top: {top}px">
     <nav class="header__social-media" bind:this={headerElement}>
         <div class="header__social-inner">sdfasd</div>
     </nav>
@@ -106,5 +106,9 @@
     .padding {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .line {
+        border-bottom: 1px solid rgba(black, 0.1);
     }
 </style>
