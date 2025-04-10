@@ -73,7 +73,6 @@
     }
 
     &__menu {
-        padding-right: calc(var(--diagonal) + 5px);
 
         &--red {
             color: white;
@@ -93,7 +92,6 @@
 
         svg {
             position: relative;
-            left: calc(var(--diagonal) + 10px);
             top: 5px;
             transition: 300ms ease;
             transition-delay: 200ms;
