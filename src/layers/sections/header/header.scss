@@ -64,11 +64,20 @@
     }
 
     &__logo {
-        --icon-size: 100px;
+        --icon-size: 60px;
 
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
         --icon-color: #{$base-color};
+
+        display: flex;
+        color: $secondary-color;
+        line-height: 1.2;
+        gap: 10px;
+
+        font: {
+            size: 1.3rem;
+        }
     }
 
     &__social-media {
@@ -85,5 +94,11 @@
 
         display: flex;
         align-items: center;
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        margin: 0;
     }
 }

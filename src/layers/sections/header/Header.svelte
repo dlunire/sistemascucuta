@@ -48,21 +48,24 @@
     $: top = size.height * -1;
 
     let change: boolean = false;
-    let ticking: boolean = false;
 
-    addEventListener("scroll", function (event) {
-        scroll(event);
+    addEventListener("scroll", function () {
+        scroll();
     });
 
-    function scroll(event: Event): void {
-        if (!(headerElement instanceof HTMLElement)) {
-            return;
+    function scroll() {
+        if (!(headerElement instanceof HTMLElement)) return;
+
+        const ref = headerElement.getBoundingClientRect().top;
+        const currentTop: number = ref * -1;
+
+        if (currentTop < scrollY) {
+            change = true;
         }
 
-        sizes = headerElement.getBoundingClientRect();
-        const ref: number = sizes.top;
-
-        change = ref == top;
+        if (change && currentTop <= 0) {
+            change = false;
+        }
     }
 </script>
 
@@ -71,13 +74,18 @@
         <div class="header__social-inner">sdfasd</div>
     </nav>
 
-    <nav class="header__nav header__nav--white" class:header__nav--open={open}>
+    <nav
+        class="header__nav header__nav--white"
+        class:padding={change}
+        class:header__nav--open={open}
+    >
         <div
             class="header__logo"
             class:header__logo--open={open}
             class:logo={change}
         >
             <IconLogoSc />
+            <h1 class="header__title">Sistema Cúcuta</h1>
         </div>
 
         <div class="header__menu header__menu--white">
@@ -88,10 +96,15 @@
 
 <style lang="scss">
     .logo {
-        --icon-size: 40px;
+        --icon-size: 50px;
     }
 
     :global(svg) {
         transition: 300ms ease;
+    }
+
+    .padding {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 </style>
