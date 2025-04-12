@@ -11,9 +11,10 @@
     import "@splidejs/svelte-splide/css/core";
     import { Splide, SplideSlide } from "@splidejs/svelte-splide";
     import type { Image } from "../../../lib/interface/Image";
+    import { getImages } from "../../../lib/utils/Images";
     // import IconPortfolio from "../../icons/IconPortfolio.svelte";
 
-    export let images: Image[] = [];
+    let images: Image[] = getImages();
 </script>
 
 <section class="banner" id="home">
@@ -23,16 +24,6 @@
                 <img {src} {alt} />
             </SplideSlide>
         {/each}
-        <SplideSlide>
-            <img src="image2.jpg" alt="Segunda imagen" />
-        </SplideSlide>
-
-        <SplideSlide>
-            <img src="image2.jpg" alt="Segunda imagen" />
-        </SplideSlide>
-        <SplideSlide>
-            <img src="image2.jpg" alt="Segunda imagen" />
-        </SplideSlide>
     </Splide>
 </section>
 
