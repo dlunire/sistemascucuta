@@ -154,10 +154,10 @@
         <a
             href="https://dlunire.pro/"
             target="_blank"
-            aria-label="Códigos del Futuro"
+            aria-label="DLUnire Framework"
         >
             <IconCodigosdelFuturo />
-            <span>Códigos del Futuro</span>
+            <span>DLUnire Framework</span>
         </a>
     </div>
 </footer>

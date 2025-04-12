@@ -85,7 +85,9 @@
             class:logo={change}
         >
             <IconLogoSc />
-            <h1 class="header__title">Sistema Cúcuta</h1>
+            <h1 class="header__title">
+                <span>Sistema Cúcuta</span>
+            </h1>
         </div>
 
         <div class="header__menu header__menu--white">

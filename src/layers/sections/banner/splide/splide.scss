@@ -1,0 +1,17 @@
+@use "sass:color";
+@use "../splide/../../../../assets/sass/vars" as *;
+
+.splide {
+    flex-grow: 1;
+
+    &__track {
+        height: 100%;
+    }
+
+    &__slide {
+
+        &:nth-of-type(2n) {
+            background-color: rgba(white, 0.7);
+        }
+    }
+}

@@ -1,7 +1,7 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 462.864 545.423"
-    aria-label="Códigos del Futuro"
+    aria-label="DLUnire Framework"
     ><path
         fill-rule="evenodd"
         stroke-linecap="round"

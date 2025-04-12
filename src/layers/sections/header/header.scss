@@ -100,5 +100,12 @@
         display: flex;
         align-items: center;
         margin: 0;
+
+        @media screen and (max-width: 980px) {
+
+            span {
+                display: none;
+            }
+        }
     }
 }

@@ -19,6 +19,7 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
+    "@splidejs/svelte-splide": "^0.2.9",
     "sass": "^1.86.0"
   }
 }
