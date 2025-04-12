@@ -18,7 +18,17 @@
 </script>
 
 <section class="banner" id="home">
-    <Splide aria-label="Sliders">
+    <Splide
+        aria-label="Sliders"
+        options={{
+            autoplay: true,
+            interval: 3000,
+            rewind: true,
+            loop: true,
+            type: "loop",
+            speed: 600,
+        }}
+    >
         {#each images as { src, title, alt }, index}
             <SplideSlide>
                 <img {src} {alt} />
