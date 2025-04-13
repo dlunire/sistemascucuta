@@ -8,6 +8,9 @@
 
     export let menu: Menu[] = [];
 
+    let element: HTMLElement | null = null;
+    let top: number = 0;
+
     /**
      * Menu Button
      *
@@ -21,6 +24,15 @@
         }
 
         open = !open;
+
+        if (!(element instanceof HTMLElement)) return;
+        const headerElement: HTMLElement | null = element.closest("header");
+        if (!(headerElement instanceof HTMLElement)) return;
+
+        const domRect: DOMRect = headerElement.getBoundingClientRect();
+        top = domRect.height + domRect.top;
+
+        console.log({ top, domRect });
     }
 
     function handleLink(): void {
@@ -29,7 +41,7 @@
 </script>
 
 {#if vertical}
-    <ul class="menu menu--portrait">
+    <ul class="menu menu--portrait" bind:this={element}>
         {#each menu as item}
             <li class="menu__item menu__item--vertical">
                 {#if item.icon}
@@ -41,7 +53,7 @@
         {/each}
     </ul>
 {:else}
-    <ul class="menu menu--landscape">
+    <ul class="menu menu--landscape" bind:this={element}>
         {#each menu as item}
             <li class="menu__item menu__item--white">
                 <a
@@ -70,7 +82,7 @@
     <strong>Menú</strong>
 </button>
 
-<MenuWindows bind:menu bind:open />
+<MenuWindows bind:menu bind:open bind:top />
 
 <style lang="scss">
     .open {
