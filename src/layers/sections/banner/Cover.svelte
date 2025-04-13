@@ -40,6 +40,8 @@
             drag: true,
             flickPower: 600,
             flickMaxPages: 1,
+            keyboard: "global",
+            paginationKeyboard: true,
         }}
         on:move={handleMove}
     >
