@@ -74,7 +74,7 @@
     .active {
         background-color: purple;
         animation-name: fade-in;
-        animation-duration: 400ms;
+        animation-duration: 600ms;
         animation-timing-function: ease;
         animation-delay: 200ms;
         animation-fill-mode: forwards;

@@ -50,6 +50,15 @@
             border-radius: 2px;
             width: var(--size);
             height: calc(var(--size) / 2);
+
+            &:hover {
+                background-color: green;
+            }
+
+            &:active {
+                background-color: rgba(green, 0.6);
+                transition: none;
+            }
         }
     }
 }
