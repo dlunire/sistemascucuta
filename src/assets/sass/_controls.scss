@@ -51,7 +51,7 @@
             left: 0;
             right: 0;
             height: 2px;
-            background-color: rgba(white, 0.9);
+            background-color: rgba(black, 0.9);
             width: 50%;
             border-radius: 2px;
             pointer-events: none;
@@ -85,7 +85,7 @@
             background-color: transparent;
         }
 
-        @media screen and (min-width: 650px) {
+        @media screen and (min-width: 820px) {
             display: none;
         }
     }

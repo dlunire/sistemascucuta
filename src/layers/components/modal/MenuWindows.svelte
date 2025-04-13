@@ -59,11 +59,11 @@
                 <h2 class="modal__title">
                     <span>Menú principal</span>
                 </h2>
-                <ul class="menu menu--horizontal">
+                <ul class="menu menu--portrait">
                     {#each menu as item}
-                        <li class="menu__item menu__item--horizontal">
+                        <li class="menu__item menu__item--portrait">
                             <a
-                                class="menu__link menu__link--horizontal"
+                                class="menu__link menu__link--portrait"
                                 href={item.link}
                                 aria-label={item.label}
                                 on:click={handle}
@@ -83,11 +83,11 @@
                     <span>Enlaces externos</span>
                 </h2>
 
-                <ul class="menu menu--horizontal">
-                    <li class="menu__item menu__item--horizontal">
+                <ul class="menu menu--portrait">
+                    <li class="menu__item menu__item--portrait">
                         <a
                             href="https://drive.google.com/file/d/18ovkKrJatJdvUdNifLplUBV2SsTjjcCV/view"
-                            class="menu__link menu__link--horizontal"
+                            class="menu__link menu__link--portrait"
                             target="_blank"
                             rel="nofollow"
                         >
@@ -96,10 +96,10 @@
                         </a>
                     </li>
 
-                    <li class="menu__item menu__item--horizontal">
+                    <li class="menu__item menu__item--portrait">
                         <a
                             href="https://drive.google.com/file/d/1jLmSbZ3H8TutQbmLx67Wbue0r4Q5-H_H/view"
-                            class="menu__link menu__link--horizontal"
+                            class="menu__link menu__link--portrait"
                             target="_blank"
                             rel="nofollow"
                         >
@@ -108,10 +108,10 @@
                         </a>
                     </li>
 
-                    <li class="menu__item menu__item--horizontal">
+                    <li class="menu__item menu__item--portrait">
                         <a
                             href="https://docs.google.com/forms/d/e/1FAIpQLSd-E2T6CjR2leReUoF16Ku_klbpUykN2G0LJpG-iCnPkbP06w/viewform"
-                            class="menu__link menu__link--horizontal"
+                            class="menu__link menu__link--portrait"
                             target="_blank"
                             rel="nofollow"
                         >
