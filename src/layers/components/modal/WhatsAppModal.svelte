@@ -17,9 +17,9 @@
 
 <section class="whatsapp" bind:this={element}>
     <a
-        href="https://wa.me/573004398344"
+        href="https://wa.me/573174836272"
         title="Ir a WhatsApp"
-        aria-label="Ir a WhatsApp"
+        aria-label="Sistemas Cúcuta"
         class="whatsapp__link"
         target="_blank"
         rel="nofollow"
