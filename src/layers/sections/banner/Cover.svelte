@@ -35,6 +35,16 @@
         {#each images as { src, title, alt }, index}
             <SplideSlide>
                 <img {src} {alt} />
+
+                <div class="banner__content">
+                    <div class="banner__content__inner">
+                        <h2 class="banner__title">
+                            <span>{title}</span>
+                        </h2>
+
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
             </SplideSlide>
         {/each}
     </Splide>

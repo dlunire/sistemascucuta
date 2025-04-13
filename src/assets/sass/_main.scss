@@ -65,48 +65,41 @@ main {
 
     &__title {
         text-align: center;
-        color: white;
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 1.1;
-        width: $width;
+        margin: 0;
 
         font: {
-            size: 1.5em;
-            weight: 500;
+            size: 2rem;
+            stretch: condensed;
         }
 
-        @media screen and (max-width: 500px) {
-            font: {
-                size: 1.3rem;
-            }
+        & {
+            text-transform: uppercase;
         }
+    }
 
-        span {
-            display: flex;
-            justify-content: center;
+    &__content {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
 
-            text-align: center;
-            margin: 0 auto;
-            text-align: center;
+        &__inner {
+            max-width: 600px;
+            width: 100%;
+            border-radius: 10px;
+            background-color: rgba($desaturate-base-color, 0.8);
+            color: white;
+            padding: 20px 10px;
 
-            @media screen and (min-width: 501px) {
-                white-space: nowrap;
-            }
-
-            &:first-of-type {
-                color: #f06600;
-                margin-bottom: 10px;
-            }
-
-            &:last-of-type {
-                font: {
-                    size: 2.1em;
-                    family: "Roboto Condensed"
-                }
+            p {
+                text-align: center;
+                margin: 0;
             }
         }
     }
