@@ -93,9 +93,9 @@ main {
             max-width: 600px;
             width: 100%;
             border-radius: 10px;
-            background-color: rgba($base-color, 0.8);
             color: white;
             padding: 20px 10px;
+            border: 1px solid rgba($base-color, 0.3);
 
             p {
                 text-align: center;

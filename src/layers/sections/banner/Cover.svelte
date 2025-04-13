@@ -36,7 +36,7 @@
             rewind: true,
             loop: true,
             type: "loop",
-            speed: 600,
+            speed: 1200,
             drag: true,
             flickPower: 600,
             flickMaxPages: 1,
@@ -76,7 +76,7 @@
         animation-name: fade-in;
         animation-duration: 400ms;
         animation-timing-function: ease;
-        animation-delay: 100ms;
+        animation-delay: 200ms;
         animation-fill-mode: forwards;
         opacity: 0;
         transform: scale(0);
