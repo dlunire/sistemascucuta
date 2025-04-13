@@ -27,6 +27,9 @@
             loop: true,
             type: "loop",
             speed: 600,
+            drag: true,
+            flickPower: 600,
+            flickMaxPages: 1,
         }}
     >
         {#each images as { src, title, alt }, index}

@@ -27,7 +27,8 @@ main {
         top: 0;
         bottom: 0;
 
-        background-color: rgba(black, 0.85);
+        // background-color: rgba(black, 0.55);
+        pointer-events: none;
         z-index: 1;
     }
 
