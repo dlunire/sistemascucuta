@@ -17,13 +17,18 @@
             icon: IconHome as typeof SvelteComponent,
         },
         {
-            label: "Nosotros",
+            label: "Perfil profesional",
             link: "#about",
             icon: IconAbout as typeof SvelteComponent,
         },
         {
-            label: "Servicios",
+            label: "Productos y servicios",
             link: "#services",
+            icon: IconService as typeof SvelteComponent,
+        },
+        {
+            label: "clientes y proyectos",
+            link: "#clients",
             icon: IconService as typeof SvelteComponent,
         },
         {
