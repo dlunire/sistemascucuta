@@ -59,7 +59,7 @@
                             <span>{title}</span>
                         </h2>
 
-                        <p>{title}.</p>
+                        <p>{alt}</p>
                     </div>
                 </div>
             </SplideSlide>

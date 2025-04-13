@@ -8,8 +8,8 @@ import type { Image } from "../interface/Image";
 export function getImages(): Image[] {
 
     return [
-        { src: "./images/slides/slide1.jpg", title: "Computadora portátil", alt: "Computadora portátil" },
-        { src: "./images/slides/slide2.jpg", title: "Soporte técnico", alt: "Soporte técnico" },
-        { src: "./images/slides/slide3.jpg", title: "Mantenimiento a tarjeta madre", alt: "Mantenimiento a tarjeta madre" }
+        { src: "./images/slides/slide1.jpg", title: "Ingeniería y soporte", alt: "Redes y Seguridad" },
+        { src: "./images/slides/slide2.jpg", title: "Calidad al mejor precio", alt: "Soluciones en Sistemas" },
+        { src: "./images/slides/slide3.jpg", title: "Instalación y configuración", alt: "Desde el hardware hasta el software, configuramos todo" }
     ];
 }
