@@ -67,6 +67,7 @@
     class:open
 >
     <span></span><span></span><span></span>
+    <strong>Menú</strong>
 </button>
 
 <MenuWindows bind:menu bind:open />
