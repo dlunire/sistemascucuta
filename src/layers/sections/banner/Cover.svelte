@@ -28,6 +28,10 @@
 </script>
 
 <section class="banner" id="home">
+    <div class="progress">
+        <div class="progress__line"></div>
+    </div>
+
     <Splide
         aria-label="Sliders"
         options={{
@@ -41,7 +45,6 @@
             flickPower: 600,
             flickMaxPages: 1,
             keyboard: "global",
-            paginationKeyboard: true,
         }}
         on:move={handleMove}
     >
@@ -71,6 +74,7 @@
     .banner {
         min-height: 400px;
         display: flex;
+        position: relative;
     }
 
     .active {

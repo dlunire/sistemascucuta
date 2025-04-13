@@ -6,9 +6,9 @@
     import { install } from "../../../lib/store";
     import { onDestroy, tick } from "svelte";
     import IconLogoSc from "../../icons/IconLogoSC.svelte";
-    import { screenTop } from "svelte/reactivity/window";
 
     export let menu: MenuItem[] = [];
+    export let interval: number = 3000;
 
     let headerElement: HTMLElement | null = null;
     let open: boolean = false;
@@ -69,7 +69,7 @@
     }
 </script>
 
-<header class="header" class:line={change} style="--top: {top}px">
+<header class="header" class:line={change} style="--top: {top}px;">
     <nav class="header__social-media" bind:this={headerElement}>
         <div class="header__social-inner">sdfasd</div>
     </nav>
@@ -113,4 +113,23 @@
     .line {
         border-bottom: 1px solid rgba(black, 0.1);
     }
+
+    // .header {
+    //     // position: relative;
+
+    //     &::before {
+    //         content: "";
+    //         display: block;
+    //         position: absolute;
+    //         margin: auto;
+    //         left: 0;
+    //         right: auto;
+    //         top: auto;
+    //         bottom: 0;
+    //         animation: var(--progress);
+    //         height: 4px;
+    //         background-color: rgb(255, 208, 0);
+    //         z-index: 1;
+    //     }
+    // }
 </style>

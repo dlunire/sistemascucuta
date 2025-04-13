@@ -6,6 +6,8 @@
     import AboutUs from "./AboutUS.svelte";
     import ConctactUs from "./ConctactUS.svelte";
     import Services from "./Services.svelte";
+
+    export let interval: number = 3000;
 </script>
 
 <section class="container">

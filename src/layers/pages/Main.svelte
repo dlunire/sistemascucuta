@@ -35,7 +35,7 @@
 </script>
 
 <main>
-    <Header bind:menu />
+    <Header />
     <Container />
     <Footer bind:menu />
     <WhatsAppModal />
