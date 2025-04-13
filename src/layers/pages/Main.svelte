@@ -9,6 +9,7 @@
     import IconService from "../icons/IconService.svelte";
     import IconContact from "../icons/IconContact.svelte";
     import WhatsAppModal from "../components/modal/WhatsAppModal.svelte";
+    import IconDiagram from "../icons/IconDiagram.svelte";
 
     let menu: Menu[] = [
         {
@@ -29,7 +30,7 @@
         {
             label: "clientes y proyectos",
             link: "#clients",
-            icon: IconService as typeof SvelteComponent,
+            icon: IconDiagram as typeof SvelteComponent,
         },
         {
             label: "Contacto",
