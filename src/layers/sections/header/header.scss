@@ -87,13 +87,96 @@
         display: flex;
     }
 
-    &__social-inner {
-        margin: 0 auto;
-        max-width: $max-width;
-        width: $width;
+    &__social {
 
-        display: flex;
-        align-items: center;
+        &-inner {
+            margin: 0 auto;
+            max-width: $max-width;
+            width: $width;
+            height: 100%;
+            position: relative;
+
+            svg {
+                margin: 0;
+                display: flex;
+            }
+
+            display: flex;
+            justify-content: space-between;
+
+            --icon-color: white;
+            --icon-size: 20px;
+            --icon-width: var(--icon-size);
+            --icon-height: var(--icon-size);
+        }
+
+        &-item {
+            display: flex;
+
+            &--right {
+                justify-content: flex-end;
+            }
+        }
+
+        &-link {
+            display: flex;
+            align-items: center;
+            position: relative;
+            justify-content: center;
+            padding: 0 15px;
+            transition: 300ms ease;
+
+            --icon-color: white;
+            --icon-size: 22px;
+            --icon-width: var(--icon-size);
+            --icon-height: var(--icon-size);
+
+            &:not(:first-of-type) {
+                border-left: 1px solid rgba(white, 0.1);
+            }
+
+            &--whatsapp {
+                --icon-size: 18px;
+
+                background-color: $whatsapp-color;
+                gap: 5px;
+                position: relative;
+
+                &:hover {
+                    background-color: color.adjust($color: $whatsapp-color, $lightness: -10%);
+                }
+
+                &:active {
+                    background-color: $whatsapp-color;
+                    transition: none;
+                }
+            }
+
+            &--facebook {
+
+                &:hover {
+                    background-color: $facebook-color;
+                }
+
+                &:active {
+                    transition: none;
+                    background-color: rgba($facebook-color, 0.7);
+                }
+            }
+
+            &--instagram {
+
+                &:hover {
+                    background-color: $instagram-color-01;
+                    background-image: linear-gradient(-125deg, $instagram-color-01 20%, $instagram-color-02, $instagram-color-03, $instagram-color-04)
+                }
+
+                &:active {
+                    transition: none;
+                    background-color: rgba($instagram-color-01, 0.7);
+                }
+            }
+        }
     }
 
     &__title {

@@ -6,6 +6,10 @@
     import { install } from "../../../lib/store";
     import { onDestroy, tick } from "svelte";
     import IconLogoSc from "../../icons/IconLogoSC.svelte";
+    import IconEmail from "../../icons/IconEmail.svelte";
+    import IconFacebook from "../../icons/IconFacebook.svelte";
+    import IconInstagram from "../../icons/IconInstagram.svelte";
+    import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
 
     export let menu: MenuItem[] = [];
     export let interval: number = 3000;
@@ -71,7 +75,47 @@
 
 <header class="header" class:line={change} style="--top: {top}px;">
     <nav class="header__social-media" bind:this={headerElement}>
-        <div class="header__social-inner">sdfasd</div>
+        <div class="header__social-inner">
+            <div class="header__social-item header__social-item--left">
+                <IconEmail />
+                <span>davidlunamontilla@gmail.com</span>
+            </div>
+            <div class="header__social-item header__social-item--right">
+                <a
+                    href="https://web.facebook.com/SistemasCucuta2"
+                    aria-label="Facebook"
+                    title="Perfil de Sistemas Cúcuta en Facebook"
+                    rel="nofollow"
+                    target="_blank"
+                    class="header__social-link header__social-link--facebook"
+                >
+                    <IconFacebook />
+                </a>
+
+                <a
+                    href="https://www.instagram.com/sistemascucuta/"
+                    aria-label="Facebook"
+                    title="Perfil de Sistemas Cúcuta en Instagram"
+                    rel="nofollow"
+                    target="_blank"
+                    class="header__social-link header__social-link--instagram"
+                >
+                    <IconInstagram />
+                </a>
+
+                <a
+                    href="https://www.instagram.com/sistemascucuta/"
+                    aria-label="Facebook"
+                    title="Perfil de Sistemas Cúcuta en Instagram"
+                    rel="nofollow"
+                    target="_blank"
+                    class="header__social-link header__social-link--whatsapp"
+                >
+                    <IconWhatsApp />
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
     </nav>
 
     <nav
