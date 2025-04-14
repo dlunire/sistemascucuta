@@ -104,9 +104,9 @@
                 </a>
 
                 <a
-                    href="https://www.instagram.com/sistemascucuta/"
-                    aria-label="Facebook"
-                    title="Perfil de Sistemas Cúcuta en Instagram"
+                    href="https://wa.me/573174836272"
+                    aria-label="Perfil de WhatsApp"
+                    title="Perfil de Sistemas Cúcuta en Whatsapp"
                     rel="nofollow"
                     target="_blank"
                     class="header__social-link header__social-link--whatsapp"

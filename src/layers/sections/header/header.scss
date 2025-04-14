@@ -95,6 +95,7 @@
             width: $width;
             height: 100%;
             position: relative;
+            user-select: none;
 
             svg {
                 margin: 0;
@@ -112,6 +113,11 @@
 
         &-item {
             display: flex;
+
+            &--left {
+                align-items: center;
+                gap: 5px;
+            }
 
             &--right {
                 justify-content: flex-end;
