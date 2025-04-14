@@ -32,12 +32,12 @@
             <ul class="footer__menu">
                 <li class="footer__list footer__list--item">
                     <IconWhatsApp />
-                    <span>300 439 8344</span>
+                    <span>317 483 6272</span>
                 </li>
 
                 <li class="footer__list footer__list--item">
                     <IconEmail />
-                    <span>norsire.2020@gmail.com</span>
+                    <span>marketing@sistemascucuta.com</span>
                 </li>
 
                 <li class="footer__list footer__list--item">
