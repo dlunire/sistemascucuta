@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { Menu } from "../../../lib/interface/menu";
     import Cover from "../banner/Cover.svelte";
+    import WhyUs from "../WhyUS/WhyUS.svelte";
     import About from "./About.svelte";
     import AboutUs from "./AboutUS.svelte";
     import ConctactUs from "./ConctactUS.svelte";
@@ -9,6 +10,7 @@
 
 <section class="container">
     <Cover />
+    <WhyUs />
     <About />
     <AboutUs />
     <Services />
