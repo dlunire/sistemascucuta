@@ -42,7 +42,7 @@
 
                 <li class="footer__list footer__list--item">
                     <IconAddress />
-                    <span>Calle 6n #12e 28-1 Urb. Los Acacios</span>
+                    <span> Av 2e # 6-19 B. Popular Cucuta NDS</span>
                 </li>
             </ul>
         </div>
