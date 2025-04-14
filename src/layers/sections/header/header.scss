@@ -73,7 +73,7 @@
         display: flex;
         color: $secondary-color;
         line-height: 1.2;
-        gap: 10px;
+        gap: 5px;
 
         font: {
             size: 1.3rem;
@@ -222,9 +222,23 @@
         display: flex;
         align-items: center;
         margin: 0;
+        color: color.adjust($color: $secondary-color, $lightness: -10%);
 
-        @media screen and (max-width: 980px) {
+        &,
+        span {
+            transition: 300ms ease;
+        }
 
+        @media screen and (min-width: 320px) and (max-width: 500px) {
+
+            span {
+                font: {
+                    size: 1.13rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 319px) {
             span {
                 display: none;
             }
