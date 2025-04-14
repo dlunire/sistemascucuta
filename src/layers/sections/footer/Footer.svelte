@@ -157,7 +157,7 @@
             aria-label="DLUnire Framework"
         >
             <IconCodigosdelFuturo />
-            <span>DLUnire Framework</span>
+            <span>David E Luna M</span>
         </a>
     </div>
 </footer>
