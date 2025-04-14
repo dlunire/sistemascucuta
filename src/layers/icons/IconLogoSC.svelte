@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let href: string = "#/home";
+    export let href: string = "#home";
 </script>
 
 <a {href} title="Página Principal" aria-label="Página Principal">

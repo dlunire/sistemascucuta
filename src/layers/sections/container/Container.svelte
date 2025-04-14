@@ -11,8 +11,8 @@
 <section class="container">
     <Cover />
     <WhyUs />
-    <About />
+    <!-- <About />
     <AboutUs />
-    <Services />
+    <Services /> -->
     <ConctactUs />
 </section>

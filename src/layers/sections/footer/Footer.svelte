@@ -8,6 +8,7 @@
     import IconForm from "../../icons/IconForm.svelte";
     import IconInstagram from "../../icons/IconInstagram.svelte";
     import IconLInk from "../../icons/IconLInk.svelte";
+    import IconLogoSc from "../../icons/IconLogoSC.svelte";
     import IconMenuItem from "../../icons/IconMenuItem.svelte";
     import IconPortfolio from "../../icons/IconPortfolio.svelte";
     import IconSocialMedia from "../../icons/IconSocialMedia.svelte";
@@ -20,7 +21,7 @@
     <div class="footer__inner">
         <div class="footer__item">
             <a href="#home" class="footer__logo">
-                <Logo />
+                <IconLogoSc />
             </a>
 
             <h2 class="footer__title">
