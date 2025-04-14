@@ -279,13 +279,14 @@ main {
     }
 
     &__logo {
+        --icon-width: 80px;
+        --icon-height: 80px;
+
         position: relative;
-        height: 100px;
+        height: var(--icon-height);
         transition: 300ms ease;
         opacity: 0.6;
-
-        --icon-width: 200px;
-        --icon-height: 100px;
+        margin-bottom: 10px;
 
         display: flex;
         align-items: center;
