@@ -77,8 +77,15 @@
     <nav class="header__social-media" bind:this={headerElement}>
         <div class="header__social-inner">
             <div class="header__social-item header__social-item--left">
-                <IconEmail />
-                <span>davidlunamontilla@gmail.com</span>
+                <a
+                    href="mailto:marketing@sistemascucuta.com"
+                    class="header__social-link header__social-link--email"
+                    aria-label="marketing@sistemascucuta.com"
+                    title="marketing@sistemascucuta.com"
+                >
+                    <IconEmail />
+                    <span>marketing@sistemascucuta.com</span>
+                </a>
             </div>
             <div class="header__social-item header__social-item--right">
                 <a

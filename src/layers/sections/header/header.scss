@@ -141,6 +141,39 @@
                 border-left: 1px solid rgba(white, 0.1);
             }
 
+            &--email {
+                gap: 5px;
+                padding: 0;
+
+                @media screen and (max-width: 600px) {
+                    span {
+                        display: none;
+                    }
+                }
+
+                svg,
+                path {
+                    transition: 300ms ease;
+                }
+
+                &:hover {
+                    --icon-color: rgb(0, 247, 0);
+                }
+
+                &:active {
+
+                    &,
+                    svg,
+                    path {
+                        transition: none;
+                    }
+
+                    & {
+                        --icon-color: white;
+                    }
+                }
+            }
+
             &--whatsapp {
                 --icon-size: 18px;
 
