@@ -224,6 +224,10 @@
         margin: 0;
         color: black;
 
+        font: {
+            family: "Roboto Condensed", sans-serif, arial;
+        }
+
         &,
         span {
             transition: 300ms ease;
