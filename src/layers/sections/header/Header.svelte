@@ -130,7 +130,8 @@
         class:padding={change}
         class:header__nav--open={open}
     >
-        <div
+        <a
+            href="#home"
             class="header__logo"
             class:header__logo--open={open}
             class:logo={change}
@@ -140,7 +141,7 @@
                 <span class="color color--base">Sistema</span>
                 <span class="color color--secondary">&nbsp;Cúcuta</span>
             </h1>
-        </div>
+        </a>
 
         <div class="header__menu header__menu--white">
             <Menu bind:open bind:menu />
