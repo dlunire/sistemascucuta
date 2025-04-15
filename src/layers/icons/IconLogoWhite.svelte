@@ -1,7 +1,4 @@
-<svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 2135.711 1704.121"
-    aria-label="Logotipo de un solo color"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2135.711 1704.121"
     ><g stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".99"
         ><path
             stroke-width="2.324"
@@ -19,7 +16,13 @@
 
 <style>
     svg {
-        width: var(--icon-width);
-        height: var(--icon-height);
+        min-width: var(--icon-width);
+        min-height: var(--icon-height);
+        max-width: var(--icon-width);
+        max-height: var(--icon-height);
+    }
+
+    path {
+        fill: var(--icon-color);
     }
 </style>
