@@ -1,0 +1,15 @@
+@use "sass:color";
+@use "../../../assets/sass/vars" as *;
+
+.why {
+    position: relative;
+    padding: 10px;
+
+    &__title {
+        margin: 0;
+        background-color: $base-color;
+        color: white;
+        cursor: pointer;
+        transition: 300ms ease;
+    }
+}

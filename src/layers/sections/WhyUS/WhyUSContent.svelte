@@ -1,9 +1,11 @@
-<script lang="ts"></script>
+<script lang="ts">
+    import "./why-us.scss";
+</script>
 
 <!-- Columna de la izquierda en WhyUS -->
 <div class="section__content-column">
-    <details>
-        <summary>Diseño Web</summary>
+    <details class="why">
+        <summary class="why__title">Diseño Web</summary>
         <p>
             <strong>En resumen:</strong>No solo desarrollamos páginas web;
             diseñamos experiencias digitales de alto nivel, respaldadas por un
@@ -12,8 +14,8 @@
         </p>
     </details>
 
-    <details>
-        <summary>Asesoría en Marketing Digital</summary>
+    <details class="why">
+        <summary class="why__title">Asesoría en Marketing Digital</summary>
         <p class="margin-0">
             <strong
                 >Impulsa tu negocio con nuestra asesoría en Marketing Digital</strong
@@ -28,8 +30,8 @@
         </p>
     </details>
 
-    <details>
-        <summary>Software Contable POS</summary>
+    <details class="why">
+        <summary class="why__title">Software Contable POS</summary>
         <p>
             Ventajas de trabajar con nuestro software de Inventario, Caja y POS
             En la gestión de un negocio, contar con un sistema eficiente y
@@ -40,8 +42,8 @@
         </p>
     </details>
 
-    <details>
-        <summary>Licencias Originales</summary>
+    <details class="why">
+        <summary class="why__title">Licencias Originales</summary>
         <p>
             No pongas en riesgo tu equipo y tu información. Compra licencias
             Originales con nosotros y disfruta de un software confiable, seguro
