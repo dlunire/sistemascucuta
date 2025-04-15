@@ -1,0 +1,13 @@
+@use "sass:color";
+@use "./vars" as *;
+
+.color {
+
+    &--base {
+        color: $base-color;
+    }
+
+    &--secondary {
+        color: $secondary-color;
+    }
+}

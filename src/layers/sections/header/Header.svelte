@@ -13,7 +13,6 @@
     import IconLogoScr from "../../icons/IconLogoSCR.svelte";
 
     export let menu: MenuItem[] = [];
-    export let interval: number = 3000;
 
     let headerElement: HTMLElement | null = null;
     let open: boolean = false;
@@ -138,7 +137,8 @@
         >
             <IconLogoScr />
             <h1 class="header__title">
-                <span>Sistema Cúcuta</span>
+                <span class="color color--base">Sistema</span>
+                <span class="color color--secondary">&nbsp;Cúcuta</span>
             </h1>
         </div>
 
