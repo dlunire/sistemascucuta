@@ -47,7 +47,7 @@
             transition: 300ms ease;
             border: 1px solid green;
             background-color: transparent;
-            border-radius: 2px;
+            border-radius: 1px;
             width: var(--size);
             height: calc(var(--size) / 2);
 
@@ -66,5 +66,6 @@
 .is-active {
     width: 20px;
     transition: 300ms ease;
-    background-color: rgba(green, 0.4) !important;
+    background-color: rgba($secondary-color, 1) !important;
+    border: 0;
 }
