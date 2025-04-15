@@ -1,12 +1,12 @@
 {
-    "name": "Norsire - Seguridad de Residuos Biológicos",
-    "short_name": "Norsire",
-    "description": "Protege el medio ambiente con Norsire, la solución definitiva para la gestión segura de residuos biológicos.",
+    "name": "Sistemas Cúcuta - Soporte y Seguridad Informática",
+    "short_name": "Sistemas Cúcuta",
+    "description": "Optimiza, protege y mejora tus sistemas con el soporte técnico profesional de Sistemas Cúcuta.",
     "lang": "es",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#bb000bff",
+    "background_color": "#001582",
+    "theme_color": "#001582",
     "orientation": "portrait",
     "icons": [
         {
