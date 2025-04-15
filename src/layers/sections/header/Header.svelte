@@ -138,7 +138,7 @@
         >
             <IconLogoScr />
             <h1 class="header__title">
-                <span class="color color--base">Sistema</span>
+                <span class="color color--base">Sistemas</span>
                 <span class="color color--secondary">&nbsp;Cúcuta</span>
             </h1>
         </a>
