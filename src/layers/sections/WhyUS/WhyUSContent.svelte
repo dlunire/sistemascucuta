@@ -1,11 +1,17 @@
 <script lang="ts">
     import "./why-us.scss";
+    import Details from "./Details.svelte";
+    import IconFinancial from "../../icons/IconFinancial.svelte";
+    import IconAirCraft from "../../icons/IconAirCraft.svelte";
+    import IconPos from "../../icons/IconPOS.svelte";
+    import IconLicense from "../../icons/IconLicense.svelte";
+
+    let open: boolean = false;
 </script>
 
 <!-- Columna de la izquierda en WhyUS -->
 <div class="section__content-column">
-    <details class="why">
-        <summary class="why__title">Diseño Web</summary>
+    <Details title="Diseño Web">
         <section class="why__content">
             <p>
                 <strong>En resumen:</strong><br />No solo desarrollamos páginas
@@ -15,10 +21,11 @@
                 desde hoy!
             </p>
         </section>
-    </details>
 
-    <details class="why">
-        <summary class="why__title">Asesoría en Marketing Digital</summary>
+        <IconFinancial slot="icon" />
+    </Details>
+
+    <Details title="Asesoría en Marketing Digital">
         <section class="why__content">
             <p class="margin-0">
                 <strong
@@ -34,10 +41,10 @@
                 online con acciones concretas y medibles.
             </p>
         </section>
-    </details>
+        <IconAirCraft slot="icon" />
+    </Details>
 
-    <details class="why">
-        <summary class="why__title">Software Contable POS</summary>
+    <Details title="Software Contable POS">
         <section class="why__content">
             <p>
                 Ventajas de trabajar con nuestro software de Inventario, Caja y
@@ -48,10 +55,10 @@
                 empresa, de forma Economica .
             </p>
         </section>
-    </details>
+        <IconPos slot="icon" />
+    </Details>
 
-    <details class="why">
-        <summary class="why__title">Licencias Originales</summary>
+    <Details title="Licencias Originales">
         <section class="why__content">
             <p>
                 No pongas en riesgo tu equipo y tu información. Compra licencias
@@ -67,7 +74,9 @@
                 <li>✅ Licencia de Software Autodeks, como AUTOCAD.</li>
             </ul>
         </section>
-    </details>
+
+        <IconLicense slot="icon" />
+    </Details>
 </div>
 
 <!-- Barra lateral derecha en WhyUS -->

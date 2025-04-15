@@ -35,3 +35,15 @@
         padding-left: 0;
     }
 }
+
+@keyframes details-open {
+    from {
+        transform: scaleY(0);
+    }
+}
+
+@keyframes details-close {
+    to {
+        transform: scaleY(0);
+    }
+}

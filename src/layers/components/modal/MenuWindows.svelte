@@ -1,6 +1,6 @@
 <script lang="ts">
     import type { Menu } from "../../../lib/interface/menu";
-    import IconFinalcial from "../../icons/IconFinalcial.svelte";
+    import IconFinalcial from "../../icons/IconFinancial.svelte";
     import IconForm from "../../icons/IconForm.svelte";
     import IconPortfolio from "../../icons/IconPortfolio.svelte";
     import "./scss/menu.scss";

@@ -29,6 +29,7 @@
         min-width: var(--icon-width);
         max-height: var(--icon-height);
         max-height: var(--icon-height);
+        margin-bottom: 5px;
     }
 
     path {
