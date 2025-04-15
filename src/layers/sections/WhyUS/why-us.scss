@@ -14,7 +14,7 @@
         margin: 0;
         cursor: pointer;
         transition: 300ms ease;
-        padding: 11px 10px;
+        padding: 11px 20px;
 
         border: 1px solid rgba($base-color, 0.1);
         border-radius: 5px;
@@ -30,12 +30,5 @@
         background-color: white;
         transition: 3s ease;
         overflow: clip;
-    }
-
-    &[open] {
-
-        .why {
-            &__title {}
-        }
     }
 }
