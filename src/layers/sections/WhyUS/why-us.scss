@@ -3,13 +3,19 @@
 
 .why {
     position: relative;
-    padding: 10px;
+    transition: 300ms ease;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     &__title {
         margin: 0;
-        background-color: $base-color;
-        color: white;
+        color: $base-color;
         cursor: pointer;
         transition: 300ms ease;
+        padding: 11px 10px;
+
+        border: 1px solid rgba($base-color, 0.1);
+        border-radius: 5px;
     }
 }
