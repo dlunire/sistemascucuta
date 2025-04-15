@@ -10,6 +10,7 @@
     import IconFacebook from "../../icons/IconFacebook.svelte";
     import IconInstagram from "../../icons/IconInstagram.svelte";
     import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
+    import IconLogoScr from "../../icons/IconLogoSCR.svelte";
 
     export let menu: MenuItem[] = [];
     export let interval: number = 3000;
@@ -135,7 +136,7 @@
             class:header__logo--open={open}
             class:logo={change}
         >
-            <IconLogoSc />
+            <IconLogoScr />
             <h1 class="header__title">
                 <span>Sistema Cúcuta</span>
             </h1>
