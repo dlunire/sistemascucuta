@@ -151,6 +151,24 @@
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
     }
+
+    &__content {
+        margin-top: 60px;
+
+        &--why-us {
+
+            &-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 20px;
+            }
+        }
+
+        &-item {
+            border: 1px solid;
+        }
+
+    }
 }
 
 .article {

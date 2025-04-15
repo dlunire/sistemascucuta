@@ -11,6 +11,11 @@
 
         <div
             class="section__content section__content--why-us section__content--why-us-grid"
-        ></div>
+        >
+            <div class="section__content-item">&#123;Conent&#125;</div>
+            <div class="section__content-item">&#123;Conent&#125;</div>
+            <div class="section__content-item">&#123;Conent&#125;</div>
+            <div class="section__content-item">&#123;Conent&#125;</div>
+        </div>
     </div>
 </section>
