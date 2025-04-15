@@ -19,10 +19,9 @@
         <article class="article section__article">
             <section class="section__column">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1011716.425566044!2d-73.50348077599179!3d7.8932596686915755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaa6fb9e0ad23dcb7%3A0x30348f0607bf930b!2sNORSIRE%20ESP%20SAS!5e0!3m2!1ses-419!2sco!4v1742665694185!5m2!1ses-419!2sco"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3952.0312447516876!2d-72.4973!3d7.8918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66455f1f545b4b%3A0x442abe28ead977df!2sSISTEMASCUCUTA!5e0!3m2!1ses!2sco!4v1744678168406!5m2!1ses!2sco"
                     width="600"
                     height="450"
-                    style="border:0;"
                     allowfullscreen={true}
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
@@ -72,5 +71,6 @@
     iframe {
         width: 100%;
         margin: 0;
+        border: 0;
     }
 </style>
