@@ -170,6 +170,10 @@
                     grid-template-columns: 1fr;
                 }
             }
+
+            &-column {
+                display: flex;
+            }
         }
 
         &-content {
@@ -179,6 +183,17 @@
                     size: 0.9rem;
                 }
             }
+        }
+
+        &-column {
+            border: 1px solid;
+            padding: 20px 0;
+            flex-grow: 1;
+        }
+
+        &-sidebar {
+            border: 1px solid;
+            min-width: 430px;
         }
 
         &-title {

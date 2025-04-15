@@ -1,6 +1,7 @@
 <script lang="ts">
     import IconComputer from "../../icons/IconComputer.svelte";
     import IconWebDesign from "../../icons/IconWebDesign.svelte";
+    import WhyUsContent from "./WhyUSContent.svelte";
 </script>
 
 <section class="section section--why-us" id="about">
@@ -75,6 +76,12 @@
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div
+            class="section__content section__content--why-us section__content--why-us-column"
+        >
+            <WhyUsContent />
         </div>
     </div>
 </section>
