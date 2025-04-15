@@ -78,14 +78,37 @@
     }
 
     .active {
-        background-color: purple;
-        animation-name: fade-in;
-        animation-duration: 600ms;
-        animation-timing-function: ease;
-        animation-delay: 200ms;
-        animation-fill-mode: forwards;
-        opacity: 0;
-        transform: scale(0);
+        position: relative;
+        user-select: none;
+        &::before {
+            --margin: -10px;
+
+            content: "";
+            display: block;
+            position: absolute;
+            margin: auto;
+            left: var(--margin);
+            right: var(--margin);
+            top: var(--margin);
+            bottom: var(--margin);
+            border-radius: 10px;
+
+            background-color: rgba(0, 22, 130, 0.288);
+            animation-name: fade-in;
+            animation-duration: 600ms;
+            animation-timing-function: ease;
+            animation-delay: 200ms;
+            animation-fill-mode: forwards;
+            opacity: 0;
+            transform: scale(0);
+            mix-blend-mode: lighten;
+            pointer-events: none;
+            background-image: linear-gradient(
+                -45deg,
+                rgba(black, 0.5),
+                transparent
+            );
+        }
     }
 
     .inactive {

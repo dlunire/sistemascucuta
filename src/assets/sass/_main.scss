@@ -13,7 +13,6 @@ main {
 
 .banner {
     min-height: calc(100vh - 100px);
-    background-color: silver;
     display: block;
     position: relative;
 
@@ -25,8 +24,6 @@ main {
         right: 0;
         top: 0;
         bottom: 0;
-
-        // background-color: rgba(black, 0.55);
         pointer-events: none;
         z-index: 1;
     }
@@ -107,7 +104,6 @@ main {
             border-radius: 10px;
             color: white;
             padding: 20px 10px;
-            border: 1px solid rgba($base-color, 0.3);
 
             p {
                 text-align: center;
@@ -124,7 +120,6 @@ main {
     padding-right: 0;
 
     background-color: rgb(8, 6, 12);
-    // background-image: linear-gradient(45deg, rgba(white, 0.04), transparent);
     color: white;
     border-top: 3px solid color.adjust($color: $base-color, $lightness: -20%);
 
