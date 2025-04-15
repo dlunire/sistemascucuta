@@ -80,7 +80,34 @@
 </div>
 
 <!-- Barra lateral derecha en WhyUS -->
-<aside class="section__content-sidebar">Aside</aside>
+<aside class="section__content-sidebar">
+    <section class="section__content-sticky">
+        <h2 class="section__content-title">¿Por qué nos necesitas?</h2>
+
+        <p>
+            La tecnología es clave para la productividad y seguridad de
+            cualquier negocio o usuario. Sin soporte adecuado, puedes enfrentar
+            fallos, pérdida de datos y vulnerabilidades de seguridad.
+        </p>
+
+        <ul>
+            <li>Optimiza el rendimiento de tus sistemas y equipos.</li>
+            <li>Protege tu información contra virus y ataques.</li>
+            <li>
+                Minimiza fallos y tiempos de inactividad con soporte técnico.
+            </li>
+            <li>Automatiza y mejora procesos para mayor eficiencia.</li>
+            <li>
+                Ahorra costos evitando problemas y reparaciones innecesarias.
+            </li>
+        </ul>
+
+        <p>
+            📌 No esperes a que los problemas aparezcan. Mantén tu tecnología
+            segura y operativa con servicios informáticos profesionales. 🚀.
+        </p>
+    </section>
+</aside>
 
 <style lang="scss">
     .margin {
