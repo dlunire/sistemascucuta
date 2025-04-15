@@ -12,10 +12,45 @@
         <div
             class="section__content section__content--why-us section__content--why-us-grid"
         >
-            <div class="section__content-item">&#123;Conent&#125;</div>
-            <div class="section__content-item">&#123;Conent&#125;</div>
-            <div class="section__content-item">&#123;Conent&#125;</div>
-            <div class="section__content-item">&#123;Conent&#125;</div>
+            <div class="section__content-item">
+                <header class="section__content-header">
+                    <img src="./images/slide01.png" alt="Imagen de prueba" />
+                </header>
+
+                <div class="section__content-content">
+                    <h3 class="section__content-title">Título</h3>
+                </div>
+            </div>
+
+            <div class="section__content-item">
+                <header class="section__content-header">
+                    <img src="./images/slide01.png" alt="Imagen de prueba" />
+                </header>
+
+                <div class="section__content-content">
+                    <h3 class="section__content-title">Título</h3>
+                </div>
+            </div>
+
+            <div class="section__content-item">
+                <header class="section__content-header">
+                    <img src="./images/slide01.png" alt="Imagen de prueba" />
+                </header>
+
+                <div class="section__content-content">
+                    <h3 class="section__content-title">Título</h3>
+                </div>
+            </div>
+
+            <div class="section__content-item">
+                <header class="section__content-header">
+                    <img src="./images/slide01.png" alt="Imagen de prueba" />
+                </header>
+
+                <div class="section__content-content">
+                    <h3 class="section__content-title">Título</h3>
+                </div>
+            </div>
         </div>
     </div>
 </section>
