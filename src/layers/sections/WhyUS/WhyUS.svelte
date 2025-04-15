@@ -2,8 +2,15 @@
 
 <section class="section section--why-us" id="about">
     <div class="section__inner">
-        <h2 class="section__title section__title--why-us">
-            <span>¿Por qué elegirnos?</span>
-        </h2>
+        <div class="section__title-container">
+            <h2 class="section__title section__title--why-us">
+                <span>¿Por qué elegirnos?</span>
+            </h2>
+            <p>El servicio de reparación más rápido al mejor precio.</p>
+        </div>
+
+        <div
+            class="section__content section__content--why-us section__content--why-us-grid"
+        ></div>
     </div>
 </section>
