@@ -5,8 +5,13 @@
     import IconAirCraft from "../../icons/IconAirCraft.svelte";
     import IconPos from "../../icons/IconPOS.svelte";
     import IconLicense from "../../icons/IconLicense.svelte";
+    import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
 
-    let open: boolean = false;
+    const phone = "573174836272";
+    const message = encodeURIComponent(
+        "Hola, estoy interesado en una asesoría gratuita",
+    );
+    const waLink = `https://wa.me/${phone}?text=${message}`;
 </script>
 
 <!-- Columna de la izquierda en WhyUS -->
@@ -96,6 +101,17 @@
             📌 No esperes a que los problemas aparezcan. Mantén tu tecnología
             segura y operativa con servicios informáticos profesionales. 🚀.
         </p>
+
+        <a
+            href={waLink}
+            title="Asesoría gratis"
+            class="section__content-whatsapp"
+            rel="nofollow"
+            target="_blank"
+        >
+            <IconWhatsApp />
+            <span>Asesoría Gratis</span>
+        </a>
     </section>
 </aside>
 
