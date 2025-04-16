@@ -12,7 +12,7 @@
 <!-- Columna de la izquierda en WhyUS -->
 <div class="section__content-column">
     <Details title="Diseño Web">
-        <p>
+        <p class="margin-0">
             <strong>En resumen:</strong><br />No solo desarrollamos páginas web;
             diseñamos experiencias digitales de alto nivel, respaldadas por un
             equipo experto y comprometido con el éxito de tu presencia en línea.
@@ -28,7 +28,7 @@
                 >Impulsa tu negocio con nuestra asesoría en Marketing Digital</strong
             >
         </p>
-        <p>
+        <p class="margin-0">
             En un entorno digital en constante cambio, no es suficiente con
             simplemente estar en línea: necesitas destacar. Nuestra asesoría
             estratégica en marketing digital está diseñada para fortalecer tu
@@ -39,7 +39,7 @@
     </Details>
 
     <Details title="Software Contable POS">
-        <p>
+        <p class="margin-0">
             Ventajas de trabajar con nuestro software de Inventario, Caja y POS
             En la gestión de un negocio, contar con un sistema eficiente y
             confiable marca la diferencia. Nuestro software de Inventario, Caja
@@ -51,7 +51,7 @@
     </Details>
 
     <Details title="Licencias Originales">
-        <p>
+        <p class="margin-0">
             No pongas en riesgo tu equipo y tu información. Compra licencias
             Originales con nosotros y disfruta de un software confiable, seguro
             y siempre actualizado.
@@ -104,5 +104,9 @@
         &-0 {
             margin: 0;
         }
+    }
+
+    p {
+        line-height: 1.6;
     }
 </style>
