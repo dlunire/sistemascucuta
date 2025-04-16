@@ -149,6 +149,8 @@
         interpolate-size: allow-keywords;
         overflow: clip;
         transition: 300ms ease;
+        padding-bottom: 0;
+        padding-top: 0;
 
         &::marker {
             display: none;

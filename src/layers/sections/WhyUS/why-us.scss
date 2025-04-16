@@ -7,8 +7,13 @@
     position: relative;
     transition: 300ms ease;
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 2px transparent;
+
+    &[open] {
+        box-shadow: 2px 2px 0 2px rgba($base-color, 0.1);
+    }
 
     &__title {
         margin: 0;
@@ -31,5 +36,8 @@
         transition: 3s ease;
         overflow: clip;
         border: 1px solid $base-color;
+        background-color: rgba($base-color, 0.05);
+        color: $desaturate-base-color;
+        border-radius: 0 0 5px 5px;
     }
 }
