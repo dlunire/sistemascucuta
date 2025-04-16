@@ -177,7 +177,7 @@
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
 
-        --icon-color: black;
+        --icon-color: #{$base-color};
 
         .icon-right {
             :global(svg) {
