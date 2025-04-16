@@ -1,92 +1,128 @@
-## Estructura Web Estática
+## 🧭 Plan de Trabajo para Cierre del Proyecto Web
 
-### Menú Principal
-1. HOME
-2. Perfil profesional
-3. Productos y servicios
-4. Clientes y proyectos
-5. Contacto
+Este es el Canva estructurado a partir de los archivos proporcionados y el análisis de contexto. Contiene una propuesta clara para cerrar el sitio web estático en pocas horas.
 
 ---
 
-### HOME
-**Lema:** CONSULTORÍA EN TECNOLOGÍA INFORMÁTICA, REDES, SOFTWARE, HARDWARE, SEGURIDAD & DISEÑO.
+### 🧱 1. Estructura del Menú (actualizado)
+
+- Inicio
+- ¿Por qué elegirnos?
+- Servicios
+- Misión y Visión
+- Nuestro equipo
+- Contacto
 
 ---
 
-### Perfil profesional
-**Descripción general:**
-Profesional independiente con capacidad de adaptación, visión de futuro y habilidades para resolver problemas tanto prácticos como teóricos.
+### 🖼️ 2. Banner Principal (Portada)
 
-**Objetivo:**
-Diseñar, construir, mantener y auditar sistemas de tecnología informática que aumenten la eficiencia y productividad organizacional.
+**Título sugerido:**
+
+> "Soluciones tecnológicas confiables y a medida para tu negocio"
+
+**Subtítulo:**
+
+> "Soporte informático, desarrollo web y redes profesionales para empresas que exigen calidad."
+
+**Botón CTA:**
+
+> "Solicita tu asesoría gratuita"
+
+**Imagen sugerida:** Un técnico interactuando con tecnología (servidores, código o redes) + elementos de diseño en azul y blanco.
+
+---
+
+### ⭐ 3. ¿Por qué elegirnos?
+
+**Título de sección:**
+
+> "Motivos para confiar en nosotros"
+
+**Contenido (puntos con ícono):**
+
+- **Experiencia comprobada:** Más de 10 años en el rubro IT.
+- **Atención personalizada:** Soluciones pensadas para cada cliente.
+- **Equipo calificado:** Técnicos certificados en redes, desarrollo y soporte.
+- **Soporte rápido y eficaz:** Respuesta inmediata ante emergencias.
+
+---
+
+### 💼 4. Servicios
+
+**Título de sección:**
+
+> "Lo que hacemos"
+
+**Subsecciones:**
+
+- **Soporte Informático**: Reparación, mantenimiento, asesoría técnica.
+- **Desarrollo Web**: Sitios modernos, seguros y responsivos.
+- **Redes de Computadoras**: Instalación y optimización de redes LAN/WAN.
+- **Otros servicios**: Consultorías, cableado estructurado, backups.
+
+---
+
+### 📌 5. Misión y Visión
+
+**Título de sección:**
+
+> "Nuestra filosofía de trabajo"
 
 **Misión:**
-Generar confianza y calidad, asesorando con asertividad y garantizando seguridad en la información.
+
+> Brindar soluciones tecnológicas confiables y efectivas para impulsar el crecimiento de nuestros clientes.
 
 **Visión:**
-Ser un profesional íntegro con experiencia y conocimiento competitivo a nivel profesional.
 
-**Estudios:**
-- Ingeniería de Sistemas – Universidad Simón Bolívar (En curso)
-- Tecnología en Análisis de Información – SENA (En curso)
-- Técnica de Inglés (En curso)
-
-**Evento reciente:**
-Docente en área de Sistemas y Diseño Gráfico en Instituto IBES, Cúcuta. Trabajo independiente presencial y online.
-
-**Socios:**
-- **Pablo Salamanca:** Ing. de Sistemas, especialista en hardware/software
-- **Sergio Antonio Ariza:** Ing. de Sistemas, enfocado en seguridad informática
-- **David Correa:** Tecnólogo en Sistemas, manejo de sistemas Linux, Windows y Android
-
-**Proyecto Actual:**
-Estudios en Java y Android para certificación internacional.
-
-**Último evento:**
-Tutor personalizado para certificación en habilidades tecnológicas.
+> Ser una empresa referente en innovación IT a nivel regional, destacando por nuestra calidad humana y técnica.
 
 ---
 
-### Productos y servicios
+### 👥 6. Nuestro equipo
 
-**Sección 1: Mantenimiento de equipos de cómputo**
-Solución de errores del sistema operativo (Windows/Linux), formateo, recuperación de sistema y salvaguarda de información.
+**Título de sección:**
 
-**Sección 2: Configuración de redes inalámbricas**
-Redes WiFi para empresas y negocios con instalación profesional y segura.
+> "Conoce a nuestro equipo"
 
-**Sección 3: Herramientas & Servicios**
-- Encriptación de carpetas y archivos
-- Recuperación de datos borrados
-- Servicio de laboratorio electrónico
-- Capacitación personalizada
-- Hardening de seguridad en PCs
-- Sistemas de respaldo y salvaguarda de datos
-- Mantenimiento de impresoras
-- Venta de equipos y software
-- Cursos de Ofimática o Diseño Gráfico
+| Nombre        | Rol                       | Imagen de ejemplo              |
+| ------------- | ------------------------- | ------------------------------ |
+| Carla Gómez   | Especialista en soporte   | [Foto genérica mujer técnica]  |
+| Juan Martínez | Desarrollador web         | [Foto genérica hombre dev]     |
+| Paula Torres  | Coordinadora de proyectos | [Foto genérica mujer gerencia] |
+| Diego Salazar | Técnico en redes          | [Foto genérica hombre redes]   |
+
+**Nota:** Las imágenes son reemplazables.
 
 ---
 
-### Clientes y proyectos
-- Acceso remoto a redes empresariales
-- Instalación/configuración de tarjetas de red Ethernet/WiFi
-- Conexión inalámbrica para múltiples dispositivos
-- Servicios HotSpot con restricciones de tiempo/volumen
-- Instalación de cableado estructurado
-- Configuración de impresoras y escáneres en red
-- Servicios VoIP inalámbricos
-- Auditoría de redes (Ethical Hacking)
-- Configuración de seguridad en routers
+### ✉️ 7. Contacto
 
-**Galería:**
-Fotos y flyers de referencia de clientes y proyectos realizados
+**Título de sección:**
+
+> "¿Hablamos?"
+
+**Formulario con campos:**
+
+- Nombre
+- Correo electrónico
+- Asunto
+- Mensaje
+
+**Frase final:**
+
+> Responderemos tu consulta en menos de 24 horas.
 
 ---
 
-### Contacto
-- Dirección: Bulevar - Cúcuta, Colombia
-- Teléfono: 315-3868292
-- Correo: alvaro_mantilla@hotmail.com
+### ✅ Siguientes pasos sugeridos
+
+1. Redactar y maquetar HTML para cada sección.
+2. Insertar imágenes temporales del equipo.
+3. Implementar formulario funcional con tu sistema de rutas PHP.
+4. Revisión general y deploy final.
+
+¿Te gustaría que comencemos ahora con el maquetado en HTML + SCSS/Svelte o quieres que generemos primero los textos en bloque para copiarlos al proyecto?
+
+
 
