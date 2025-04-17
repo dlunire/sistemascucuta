@@ -24,14 +24,19 @@
             icon: IconCheck as typeof SvelteComponent,
         },
         {
-            label: "Productos y servicios",
+            label: "Servicios",
             link: "#services",
             icon: IconService as typeof SvelteComponent,
         },
         {
-            label: "clientes y proyectos",
+            label: "Proyectos",
             link: "#clients",
             icon: IconDiagram as typeof SvelteComponent,
+        },
+        {
+            label: "Nuestro equipo",
+            link: "#contact",
+            icon: IconContact as typeof SvelteComponent,
         },
         {
             label: "Contacto",
