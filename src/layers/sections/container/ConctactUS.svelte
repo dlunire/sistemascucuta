@@ -28,8 +28,13 @@
         <article
             class="article article--right section__article section__article--form"
         >
+            <div class="section__title-container">
+                <h2 class="section__title section__title--why-us">
+                    <span>Productos y servicios</span>
+                </h2>
+                <p>Soluciones tecnológicas a medida para tu éxito.</p>
+            </div>
             <div>
-                <h2 class="article__title">Información de contacto</h2>
                 <ul class="contact">
                     <li class="contact__item color color--whatsapp">
                         <IconWhatsApp />
