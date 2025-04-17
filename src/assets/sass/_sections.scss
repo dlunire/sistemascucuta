@@ -42,10 +42,14 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        &--contact-us {
+            max-width: unset;
+            padding: 0;
+        }
     }
 
     &__article {
-        padding: 10px 0;
 
         &--logo,
         &--form {
@@ -279,6 +283,12 @@
                 background-color: $whatsapp-color;
             }
         }
+    }
+
+    // MODIFICADORES
+    &--contact-us {
+        padding: 0;
+        width: 100%;
     }
 }
 

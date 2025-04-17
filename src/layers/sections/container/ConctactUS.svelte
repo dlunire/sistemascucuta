@@ -8,14 +8,9 @@
 </script>
 
 <section class="section section--contact-us" id="contact">
-    <section class="section__inner">
-        <h2 class="section__title">
-            <IconContact />
-            <span>CONTACTO</span>
-        </h2>
-    </section>
-
-    <div class="section__inner section__inner--columns">
+    <div
+        class="section__inner section__inner--contact-us section__inner--columns"
+    >
         <article class="article section__article">
             <section class="section__column">
                 <iframe
