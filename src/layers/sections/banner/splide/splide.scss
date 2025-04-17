@@ -26,6 +26,12 @@
 
             pointer-events: none;
         }
+
+        img {
+            @media screen and (max-width:600px) {
+                max-height: 400px;
+            }
+        }
     }
 
     &__pagination {
