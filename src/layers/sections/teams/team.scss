@@ -4,7 +4,7 @@
 .team {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
 
     &__item {
         min-height: 40px;
@@ -31,6 +31,8 @@
             --image-size: 120px;
             width: var(--image-size);
             height: var(--image-size);
+
+            box-shadow: 2px 2px 0 2px rgba($base-color, 0.07);
         }
     }
 
