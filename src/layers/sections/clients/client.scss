@@ -32,6 +32,17 @@
                 }
             }
         }
+
+        &:active {
+
+            .instagram {
+
+                &__content {
+                    opacity: 0.9;
+                    transition: none;
+                }
+            }
+        }
     }
 
     &__header {
