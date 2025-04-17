@@ -8,7 +8,13 @@
             <h2 class="section__title section__title--why-us">
                 <span>¿Por qué elegirnos?</span>
             </h2>
-            <p>El servicio de reparación más rápido al mejor precio.</p>
+            <p>
+                <strong>
+                    Tu equipo funcionando como nuevo, en menos tiempo y sin
+                    gastar de más.
+                </strong>
+            </p>
+            <p>Estamos aquí para ayudarte, no para complicarte.</p>
         </div>
 
         <div
