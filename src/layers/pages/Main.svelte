@@ -10,6 +10,7 @@
     import IconContact from "../icons/IconContact.svelte";
     import WhatsAppModal from "../components/modal/WhatsAppModal.svelte";
     import IconDiagram from "../icons/IconDiagram.svelte";
+    import IconCheck from "../icons/IconCheck.svelte";
 
     let menu: Menu[] = [
         {
@@ -18,9 +19,9 @@
             icon: IconHome as typeof SvelteComponent,
         },
         {
-            label: "Perfil profesional",
+            label: "¿Por qué elegirnos?",
             link: "#about",
-            icon: IconAbout as typeof SvelteComponent,
+            icon: IconCheck as typeof SvelteComponent,
         },
         {
             label: "Productos y servicios",
