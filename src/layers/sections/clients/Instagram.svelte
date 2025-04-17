@@ -5,7 +5,7 @@
 
 <section class="instagram">
     <InstagramItem image="client-01.webp" />
-    <InstagramItem />
-    <InstagramItem />
-    <InstagramItem />
+    <InstagramItem image="client-02.webp" />
+    <InstagramItem image="client-03.webp" />
+    <InstagramItem image="client-04.webp" />
 </section>
