@@ -10,4 +10,16 @@
         border: 1px solid $base-color;
         min-height: 40px;
     }
+
+    &__header {
+        padding: 80%;
+        position: relative;
+
+        img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
 }
