@@ -36,7 +36,7 @@
         },
         {
             label: "Nuestro equipo",
-            link: "#contact",
+            link: "#team",
             icon: IconTeam as typeof SvelteComponent,
         },
         {
