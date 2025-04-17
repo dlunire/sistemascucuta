@@ -91,12 +91,12 @@
 
                 <li class="footer__list">
                     <a
-                        href="https://drive.google.com/file/d/1jLmSbZ3H8TutQbmLx67Wbue0r4Q5-H_H/view"
+                        href="https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9jZjY5YTczZTAyNzNiMzQ3L0VVZXpjd0ktcDJrZ2dNX1BpZ0FBQUFBQmxVLTlDMEpxdFlSQWNyTlNiRUtqWHc&cid=CF69A73E0273B347&id=CF69A73E0273B347%2135535&parId=CF69A73E0273B347%218871&o=OneUp"
                         target="_blank"
                         class="footer__menu-link"
                     >
                         <IconPortfolio />
-                        <span>Formato de propuesta económica</span>
+                        <span>Portafolio</span>
                     </a>
                 </li>
 
