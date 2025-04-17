@@ -15,6 +15,7 @@
         border-radius: 5px;
         box-shadow: 2px 2px 0 2px rgba($base-color, 0.07);
         overflow: clip;
+        cursor: pointer;
 
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
@@ -56,8 +57,13 @@
         z-index: 30;
         pointer-events: none;
         user-select: none;
-
+        background-color: rgba(black, 0.87);
+        color: white;
         padding: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
 }
