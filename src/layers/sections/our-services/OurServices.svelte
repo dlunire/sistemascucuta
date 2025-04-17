@@ -7,7 +7,7 @@
             <h2 class="section__title section__title--why-us">
                 <span>Productos y servicios</span>
             </h2>
-            <p>soluciones tecnológicas a medida para tu éxito.</p>
+            <p>Soluciones tecnológicas a medida para tu éxito.</p>
         </div>
 
         <div
