@@ -77,7 +77,9 @@
 
 <style>
     svg {
-        width: var(--icon-width);
-        height: var(--icon-height);
+        min-width: var(--icon-width);
+        min-height: var(--icon-height);
+        max-width: var(--icon-width);
+        max-height: var(--icon-height);
     }
 </style>

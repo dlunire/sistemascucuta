@@ -11,6 +11,7 @@
     import WhatsAppModal from "../components/modal/WhatsAppModal.svelte";
     import IconDiagram from "../icons/IconDiagram.svelte";
     import IconCheck from "../icons/IconCheck.svelte";
+    import IconTeam from "../icons/IconTeam.svelte";
 
     let menu: Menu[] = [
         {
@@ -36,7 +37,7 @@
         {
             label: "Nuestro equipo",
             link: "#contact",
-            icon: IconContact as typeof SvelteComponent,
+            icon: IconTeam as typeof SvelteComponent,
         },
         {
             label: "Contacto",
