@@ -20,14 +20,14 @@
             icon: IconHome as typeof SvelteComponent,
         },
         {
-            label: "¿Por qué elegirnos?",
-            link: "#about",
-            icon: IconCheck as typeof SvelteComponent,
-        },
-        {
             label: "Servicios",
             link: "#services",
             icon: IconService as typeof SvelteComponent,
+        },
+        {
+            label: "¿Por qué elegirnos?",
+            link: "#about",
+            icon: IconCheck as typeof SvelteComponent,
         },
         {
             label: "Proyectos",
