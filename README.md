@@ -63,4 +63,16 @@ Para probar el proyecto después de la compilación.
 
 ---  
 
-Si necesitas más detalles o ajustes específicos, dime. 🚀
+## INDICACIONES WHATSAPP
+
+### QUITAR
+
+Misión y Visión
+
+### COLOCAR
+
+- 4 SERVICIOS: MARKETING, DISEÑO WEB, SOFTWARE POST, MANTENIMIENTO DE COMPUTADORA.
+- Equipo: Foto, nombre, rol y el botón de WhatsApp.
+- Nuestros proyectos: Proyectos Web (foto y enlace, poner subdominios).
+- Contáctanos: Mapa, dirección, botones de redes sociales con color.
+- La grilla de instagram.
