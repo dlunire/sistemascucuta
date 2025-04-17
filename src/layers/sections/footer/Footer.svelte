@@ -80,12 +80,12 @@
             <ul class="footer__menu">
                 <li class="footer__list">
                     <a
-                        href="https://drive.google.com/file/d/18ovkKrJatJdvUdNifLplUBV2SsTjjcCV/view"
+                        href="https://sistemascucuta.my.canva.site/"
                         target="_blank"
                         class="footer__menu-link"
                     >
                         <IconPortfolio />
-                        <span>Portafolio</span>
+                        <span>Sistemas Cúcuta</span>
                     </a>
                 </li>
 
