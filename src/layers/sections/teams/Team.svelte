@@ -7,7 +7,11 @@
             <h2 class="section__title section__title--why-us">
                 <span>Nuestro equipo</span>
             </h2>
-            <p>Conoce a nuestro equipo</p>
+            <p>
+                Descubre a los profesionales detrás de cada solución. Nuestro
+                equipo combina experiencia, compromiso y pasión por la
+                tecnología para ofrecerte un servicio confiable y eficiente.
+            </p>
         </div>
 
         <div
