@@ -7,18 +7,52 @@
     gap: 10px;
 
     &__item {
-        border: 1px solid $base-color;
         min-height: 40px;
+        position: relative;
     }
 
     &__header {
-        padding: 80%;
         position: relative;
+        z-index: 1;
 
         img {
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+            border-radius: 50%;
+            background-color: white;
+            margin: 0 auto;
+
+            -moz-object-fit: cover;
+            -webkit-object-fit: cover;
+            object-fit: cover;
+
+            --image-size: 120px;
+            width: var(--image-size);
+            height: var(--image-size);
+        }
+    }
+
+    &__content {
+        padding-top: 20px;
+        background-color: white;
+        border: 1px solid rgba($base-color, 0.2);
+        margin-top: -60px;
+    }
+
+    &__title {
+        margin: 0;
+        text-align: center;
+        line-height: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        font: {
+            size: 1.3rem;
 
         }
     }

@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Profile from "./Profile.svelte";
     import "./team.scss";
 </script>
 
@@ -17,10 +18,18 @@
 
         <section class="section__content section__content--team">
             <div class="team">
-                <div class="team__item"></div>
-                <div class="team__item"></div>
-                <div class="team__item"></div>
-                <div class="team__item"></div>
+                <Profile title="Alvaro Mantilla" image="alvaro.jpeg"></Profile>
+
+                <Profile title="David E Luna M" image="dlunamontilla.jpeg"
+                ></Profile>
+
+                <Profile title="Francisco Berrera" image="francisco-becerra.png"
+                ></Profile>
+
+                <Profile
+                    title="Sergio Vargas"
+                    image="sergio-vargas-profile.webp"
+                ></Profile>
             </div>
         </section>
     </div>
