@@ -22,6 +22,8 @@
         min-height: var(--icon-height);
         max-width: var(--icon-width);
         max-height: var(--icon-height);
+
+        margin: var(--margin);
     }
 
     path {

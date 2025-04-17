@@ -83,4 +83,19 @@
     &__description {
         margin-top: 10px;
     }
+
+    &__whatsapp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $whatsapp-color;
+        height: 36px;
+        --icon-size: 15px;
+        --icon-color: white;
+        --icon-width: var(--icon-size);
+        --icon-height: var(--icon-size);
+        margin-top: 10px;
+        gap: 5px;
+        border-radius: 20px;
+    }
 }
