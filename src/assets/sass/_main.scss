@@ -196,9 +196,14 @@ main {
 
                 &[data-social-media="facebook"] {
                     background-color: $facebook-color;
-                }
+                    // border-radius: 50%;
+                    --size: 35px;
+                    --icon-size: 17px;
 
-                &[data-social-media="instagram"] {}
+                    &:hover {
+                        --icon-color: white;
+                    }
+                }
 
                 &:hover {
                     opacity: 0.7;
