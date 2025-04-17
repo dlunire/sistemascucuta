@@ -1,0 +1,13 @@
+@use "sass:color";
+@use ".././../../assets/sass/vars" as *;
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    &__item {
+        border: 1px solid $base-color;
+        min-height: 40px;
+    }
+}

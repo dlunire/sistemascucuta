@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "./team.scss";
 </script>
 
 <section class="section section--why-us" id="team">
