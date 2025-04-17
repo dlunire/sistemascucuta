@@ -41,7 +41,6 @@
             loop: true,
             type: "loop",
             speed: 1200,
-            drag: true,
             flickPower: 600,
             flickMaxPages: 1,
             keyboard: "global",

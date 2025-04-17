@@ -4,8 +4,7 @@
     import type { Menu as MenuItem } from "../../../lib/interface/menu";
     import type { Size } from "../../../lib/interface/size";
     import { install } from "../../../lib/store";
-    import { onDestroy, tick } from "svelte";
-    import IconLogoSc from "../../icons/IconLogoSC.svelte";
+    import { onDestroy } from "svelte";
     import IconEmail from "../../icons/IconEmail.svelte";
     import IconFacebook from "../../icons/IconFacebook.svelte";
     import IconInstagram from "../../icons/IconInstagram.svelte";
@@ -21,8 +20,6 @@
         width: 0,
         height: 0,
     };
-
-    let sizes: DOMRect | undefined = undefined;
 
     const unsubscribe = install.subscribe((currentSize: Size) => {
         size = currentSize;
