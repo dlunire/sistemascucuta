@@ -196,18 +196,17 @@ main {
 
                 &[data-social-media="facebook"] {
                     background-color: $facebook-color;
-
-                    &:hover {
-                        --icon-color: white;
-                    }
                 }
 
-                &[data-social-media="instagram"] {
-                    background-image: linear-gradient(-125deg, $instagram-color-01, $instagram-color-02 50%, $instagram-color-03, $instagram-color-04 95%);
+                &[data-social-media="instagram"] {}
 
-                    &:hover {
-                        --icon-color: white;
-                    }
+                &:hover {
+                    opacity: 0.7;
+                }
+
+                &:active {
+                    transition: none;
+                    opacity: 1;
                 }
             }
         }
