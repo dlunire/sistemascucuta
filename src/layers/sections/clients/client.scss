@@ -16,9 +16,22 @@
         box-shadow: 2px 2px 0 2px rgba($base-color, 0.07);
         overflow: clip;
         cursor: pointer;
+        user-select: none;
 
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
+
+        &:hover {
+
+            .instagram {
+
+                &__content {
+                    opacity: 1;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
     }
 
     &__header {
@@ -59,11 +72,15 @@
         user-select: none;
         background-color: rgba(black, 0.87);
         color: white;
-        padding: 20px;
-
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+        padding-bottom: 0;
+        transition: 300ms ease;
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0;
 
     }
 }
