@@ -26,13 +26,19 @@
                     <span>Software Developer</span>
                 </Profile>
 
-                <Profile title="Francisco Berrera" image="francisco-becerra.png"
-                ></Profile>
+                <Profile
+                    title="Francisco Berrera"
+                    image="francisco-becerra.png"
+                >
+                    <span>Web Master</span>
+                </Profile>
 
                 <Profile
                     title="Sergio Vargas"
                     image="sergio-vargas-profile.webp"
-                ></Profile>
+                >
+                    <span>Ingeniero de Sistemas</span>
+                </Profile>
             </div>
         </section>
     </div>
