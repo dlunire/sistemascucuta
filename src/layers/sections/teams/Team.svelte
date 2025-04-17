@@ -18,10 +18,13 @@
 
         <section class="section__content section__content--team">
             <div class="team">
-                <Profile title="Alvaro Mantilla" image="alvaro.jpeg"></Profile>
+                <Profile title="David Correa" image="david-correa.jpeg">
+                    <span>Soporte Técnico Informático</span>
+                </Profile>
 
-                <Profile title="David E Luna M" image="dlunamontilla.jpeg"
-                ></Profile>
+                <Profile title="David E Luna M" image="dlunamontilla.jpeg">
+                    <span>Software Developer</span>
+                </Profile>
 
                 <Profile title="Francisco Berrera" image="francisco-becerra.png"
                 ></Profile>
