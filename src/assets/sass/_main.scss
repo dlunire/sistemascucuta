@@ -203,7 +203,7 @@ main {
                 }
 
                 &[data-social-media="instagram"] {
-                    background-image: linear-gradient(125deg, $instagram-color-01, $instagram-color-02, $instagram-color-03, $instagram-color-04);
+                    background-image: linear-gradient(-125deg, $instagram-color-01, $instagram-color-02 50%, $instagram-color-03, $instagram-color-04 95%);
 
                     &:hover {
                         --icon-color: white;
