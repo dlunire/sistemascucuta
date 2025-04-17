@@ -7,7 +7,15 @@
             <h2 class="section__title section__title--why-us">
                 <span>Clientes y Proyectos</span>
             </h2>
-            <p>El servicio de reparación más rápido al mejor precio.</p>
+            <p>
+                <strong
+                    >Diagnóstico preciso, reparación veloz y costos optimizados</strong
+                >
+            </p>
+            <p>
+                Nuestro compromiso es que vuelvas a operar lo antes posible, sin
+                pagar de más.
+            </p>
         </div>
 
         <div
