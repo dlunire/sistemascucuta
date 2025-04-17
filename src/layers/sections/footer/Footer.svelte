@@ -102,12 +102,12 @@
 
                 <li class="footer__list">
                     <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd-E2T6CjR2leReUoF16Ku_klbpUykN2G0LJpG-iCnPkbP06w/viewform"
+                        href="https://wa.me/c/573174836272"
                         target="_blank"
                         class="footer__menu-link"
                     >
                         <IconForm />
-                        <span>Formulario de contacto</span>
+                        <span>Catálogos</span>
                     </a>
                 </li>
             </ul>

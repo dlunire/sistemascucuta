@@ -14,8 +14,13 @@
             </p>
         </div>
 
-        <div
-            class="section__content section__content--why-us section__content--why-us-column"
-        ></div>
+        <section class="section__content section__content--team">
+            <div class="team">
+                <div class="team__item"></div>
+                <div class="team__item"></div>
+                <div class="team__item"></div>
+                <div class="team__item"></div>
+            </div>
+        </section>
     </div>
 </section>
