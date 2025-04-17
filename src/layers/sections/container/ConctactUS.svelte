@@ -1,4 +1,5 @@
 <script>
+    import SectionTitle from "../../components/titles/SectionTitle.svelte";
     import IconContact from "../../icons/IconContact.svelte";
     import IconEmail from "../../icons/IconEmail.svelte";
     import IconForm from "../../icons/IconForm.svelte";
@@ -28,27 +29,27 @@
         <article
             class="article article--right section__article section__article--form"
         >
-            <div class="section__title-container">
-                <h2 class="section__title section__title--why-us">
-                    <span>Productos y servicios</span>
-                </h2>
-                <p>Soluciones tecnológicas a medida para tu éxito.</p>
-            </div>
             <div>
+                <SectionTitle title="Contáctanos">
+                    Solicita tu asesoría gratis. Te ayudamos sin compromiso.
+                </SectionTitle>
                 <ul class="contact">
                     <li class="contact__item color color--whatsapp">
                         <IconWhatsApp />
-                        <span>300 439 8344</span>
+                        <span>317 483 6272</span>
                     </li>
 
                     <li class="contact__item color color--email">
                         <IconEmail />
-                        <span>norsire.2020@gmail.com</span>
+                        <span>marketing@sistemascucuta.com</span>
                     </li>
 
                     <li class="contact__item">
                         <IconLocation />
-                        <span>Calle 6n #12e 28-1 Urb. Los Acacios</span>
+                        <span
+                            >Av. 2 Este #6-19, Br. Popular, Cúcuta, Norte de
+                            Santander</span
+                        >
                     </li>
                 </ul>
                 <a

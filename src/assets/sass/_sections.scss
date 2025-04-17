@@ -409,7 +409,6 @@
     &--right {
         flex-grow: 1.3;
         padding: 20px;
-        justify-content: flex-start;
 
         @media screen and (min-width: 1025px) {
             border-left: 1px solid $secondary-color;
