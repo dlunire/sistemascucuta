@@ -18,8 +18,9 @@
 
         <section class="section__content section__content--team">
             <div class="team">
-                <Profile title="Alvaro Mantilla" image="alvaro-mantilla.jpeg"
-                ></Profile>
+                <Profile title="Alvaro Mantilla" image="alvaro-mantilla.jpeg">
+                    <span>Ingeniero de Sistemas</span>
+                </Profile>
 
                 <Profile title="David E Luna M" image="dlunamontilla.jpeg">
                     <span>Software Developer</span>
