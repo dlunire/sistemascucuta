@@ -19,6 +19,7 @@
                 alt={title}
                 aria-label={title}
                 title="Ver en Instagram"
+                on:error={handle}
             />
         {:else}
             <IconImage />

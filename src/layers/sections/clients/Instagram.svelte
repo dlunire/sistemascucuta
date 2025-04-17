@@ -4,7 +4,7 @@
 </script>
 
 <section class="instagram">
-    <InstagramItem />
+    <InstagramItem image="client-01.webp" />
     <InstagramItem />
     <InstagramItem />
     <InstagramItem />
