@@ -206,13 +206,12 @@
             &--instagram {
 
                 &:hover {
-                    background-color: $instagram-color-01;
-                    background-image: linear-gradient(-125deg, $instagram-color-01 20%, $instagram-color-02, $instagram-color-03, $instagram-color-04)
+                    background-color: black;
                 }
 
                 &:active {
                     transition: none;
-                    background-color: rgba($instagram-color-01, 0.7);
+                    background-color: transparent;
                 }
             }
         }
