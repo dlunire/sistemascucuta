@@ -26,6 +26,7 @@
 
     <section class="team__content">
         <h2 class="team__title">{title}</h2>
+        <slot>Agregue contenido aquí</slot>
     </section>
 </div>
 
