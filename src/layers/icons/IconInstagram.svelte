@@ -3,6 +3,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 197.256 197.256"
     aria-label="Instagram"
+    class="instagram__svg"
     ><defs
         ><linearGradient
             id="b"
@@ -39,5 +40,7 @@
         min-height: var(--icon-height);
         max-width: var(--icon-width);
         max-height: var(--icon-height);
+
+        position: var(--position);
     }
 </style>
