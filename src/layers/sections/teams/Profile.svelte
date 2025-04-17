@@ -27,7 +27,7 @@
     <section class="team__content">
         <h2 class="team__title">{title}</h2>
         <div class="team__description">
-            <slot>Agregue contenido aquí</slot>
+            <slot>Agregue su profesión aquí</slot>
         </div>
     </section>
 </div>
