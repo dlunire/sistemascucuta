@@ -11,7 +11,7 @@
     <div
         class="section__inner section__inner--contact-us section__inner--columns"
     >
-        <article class="article section__article">
+        <article class="article article--left section__article">
             <section class="section__column">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3952.0312447516876!2d-72.4973!3d7.8918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66455f1f545b4b%3A0x442abe28ead977df!2sSISTEMASCUCUTA!5e0!3m2!1ses!2sco!4v1744678168406!5m2!1ses!2sco"
@@ -25,7 +25,9 @@
             </section>
         </article>
 
-        <article class="article section__article section__article--form">
+        <article
+            class="article article--right section__article section__article--form"
+        >
             <div>
                 <h2 class="article__title">Información de contacto</h2>
                 <ul class="contact">

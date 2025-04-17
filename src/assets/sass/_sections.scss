@@ -46,6 +46,11 @@
         &--contact-us {
             max-width: unset;
             padding: 0;
+
+            display: flex;
+
+
+            @media screen and (max-width: 800px) {}
         }
     }
 
@@ -391,6 +396,15 @@
         margin-top: 5px;
 
         border-bottom: 1px solid rgba(black, 0.13);
+    }
+
+    // MODIFICADORES
+    &--left {
+        flex-grow: 3;
+    }
+
+    &--right {
+        flex-grow: 1.3;
     }
 }
 
