@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Instagram from "./Instagram.svelte";
 </script>
 
 <section class="section section--why-us" id="clients">
@@ -20,6 +21,8 @@
 
         <div
             class="section__content section__content--why-us section__content--why-us-column"
-        ></div>
+        >
+            <Instagram />
+        </div>
     </div>
 </section>

@@ -1,0 +1,14 @@
+@use "sass:color";
+@use "../../../assets/sass/vars" as *;
+
+.instagram {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    border: 1px solid red;
+    flex-grow: 1;
+
+    &__item {
+        border: 1px solid;
+    }
+}
