@@ -88,14 +88,33 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: $whatsapp-color;
         height: 36px;
+        transition: 300ms ease;
+
         --icon-size: 15px;
         --icon-color: white;
         --icon-width: var(--icon-size);
         --icon-height: var(--icon-size);
+
         margin-top: 10px;
         gap: 5px;
         border-radius: 20px;
+
+        font: {
+            weight: 600;
+        }
+
+        &:hover {
+            background-color: $whatsapp-color;
+        }
+
+        &:active {
+            transition: none;
+        }
+
+        &,
+        &:active {
+            background-color: $whatsapp-dark-color;
+        }
     }
 }
