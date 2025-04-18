@@ -41,6 +41,7 @@
                 }
 
                 &__svg {
+                    transform: translateY(-7px);
 
                     &-container {
                         padding-bottom: 40px;
@@ -129,6 +130,7 @@
 
     &__svg {
         position: relative;
+        transform: translateY(0%);
 
         --icon-width: 40px;
         --icon-height: 40px;
