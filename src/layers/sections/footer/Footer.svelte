@@ -6,13 +6,16 @@
     import IconEmail from "../../icons/IconEmail.svelte";
     import IconFacebook from "../../icons/IconFacebook.svelte";
     import IconForm from "../../icons/IconForm.svelte";
+    import IconGitHub from "../../icons/IconGitHub.svelte";
     import IconInstagram from "../../icons/IconInstagram.svelte";
     import IconLInk from "../../icons/IconLInk.svelte";
     import IconLogoSolid from "../../icons/IconLogoSolid.svelte";
     import IconMenuItem from "../../icons/IconMenuItem.svelte";
     import IconPortfolio from "../../icons/IconPortfolio.svelte";
     import IconSocialMedia from "../../icons/IconSocialMedia.svelte";
+    import IconTikTok from "../../icons/IconTikTok.svelte";
     import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
+    import SocialLink from "./SocialLink.svelte";
     export let menu: Menu[] = [];
 </script>
 
@@ -120,33 +123,33 @@
             </h2>
 
             <ul class="footer__menu footer__menu--social-media">
-                <li class="footer__list footer__list--social-media">
-                    <a
-                        href="https://www.instagram.com/sistemascucuta/"
-                        class="footer__menu-link footer__menu-link--socialmedia"
-                        aria-label="Instagram"
-                        rel="nofollow"
-                        target="_blank"
-                        data-social-media="instagram"
-                    >
-                        <IconInstagram />
-                        <span>Instagram</span>
-                    </a>
-                </li>
+                <SocialLink
+                    href="https://www.instagram.com/sistemascucuta/"
+                    title="Instagram"
+                >
+                    <IconInstagram />
+                </SocialLink>
 
-                <li class="footer__list footer__list--social-media">
-                    <a
-                        href="https://web.facebook.com/profile.php?id=61572988453042"
-                        class="footer__menu-link footer__menu-link--socialmedia"
-                        aria-label="Instagram"
-                        rel="nofollow"
-                        target="_blank"
-                        data-social-media="facebook"
-                    >
-                        <IconFacebook />
-                        <span>Facebook</span>
-                    </a>
-                </li>
+                <SocialLink
+                    title="Facebook"
+                    href="https://web.facebook.com/profile.php?id=61572988453042"
+                >
+                    <IconFacebook />
+                </SocialLink>
+
+                <SocialLink
+                    title="TikTok"
+                    href="https://www.tiktok.com/@sistemascucuta"
+                >
+                    <IconTikTok />
+                </SocialLink>
+
+                <SocialLink
+                    title="GitHub"
+                    href="https://github.com/ataraxius25"
+                >
+                    <IconGitHub />
+                </SocialLink>
             </ul>
         </div>
     </div>
