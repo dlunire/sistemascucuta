@@ -19,6 +19,7 @@
     </div>
 
     <div class="google__description">
+        <img src="./images/google/icon-review-01.png" alt={title} />
         <slot>
             <div class="center">Coloque aquí su descripción</div>
         </slot>

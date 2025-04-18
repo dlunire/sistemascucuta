@@ -68,11 +68,43 @@
         right: 0;
         top: 0;
         bottom: 0;
-        background-image: linear-gradient(to top, rgba(black, 0.2), transparent);
-
+        background-image: linear-gradient(to top, rgba(black, 0.6), transparent);
+        color: white;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         padding-bottom: 20px;
+        transition: 300ms ease;
+        ;
+
+        &:hover {
+            background-color: rgba(black, 0.4);
+        }
+
+        p {
+            margin: 0;
+            padding: 0 40px;
+            max-width: 600px;
+        }
+
+        img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            --size: 180px;
+            width: var(--size);
+            height: var(--size);
+
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            pointer-events: none;
+            transform: translateY(100px);
+            opacity: 0;
+        }
     }
 }
