@@ -10,6 +10,8 @@
     import IconInstagram from "../../icons/IconInstagram.svelte";
     import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
     import IconLogoScr from "../../icons/IconLogoSCR.svelte";
+    import IconTikTok from "../../icons/IconTikTok.svelte";
+    import IconGitHub from "../../icons/IconGitHub.svelte";
 
     export let menu: MenuItem[] = [];
 
@@ -86,6 +88,17 @@
             </div>
             <div class="header__social-item header__social-item--right">
                 <a
+                    href="https://www.instagram.com/sistemascucuta/"
+                    aria-label="Facebook"
+                    title="Perfil de Sistemas Cúcuta en Instagram"
+                    rel="nofollow"
+                    target="_blank"
+                    class="header__social-link header__social-link--instagram"
+                >
+                    <IconInstagram />
+                </a>
+
+                <a
                     href="https://web.facebook.com/SistemasCucuta2"
                     aria-label="Facebook"
                     title="Perfil de Sistemas Cúcuta en Facebook"
@@ -97,14 +110,25 @@
                 </a>
 
                 <a
-                    href="https://www.instagram.com/sistemascucuta/"
-                    aria-label="Facebook"
-                    title="Perfil de Sistemas Cúcuta en Instagram"
+                    href="https://www.tiktok.com/@sistemascucuta"
+                    aria-label="TikTok"
+                    title="Perfil de Sistemas Cúcuta en TikTok"
                     rel="nofollow"
                     target="_blank"
-                    class="header__social-link header__social-link--instagram"
+                    class="header__social-link header__social-link--tiktok"
                 >
-                    <IconInstagram />
+                    <IconTikTok />
+                </a>
+
+                <a
+                    href="https://github.com/ataraxius25"
+                    aria-label="GitHub"
+                    title="Perfil de Sistemas Cúcuta en GitHub"
+                    rel="nofollow"
+                    target="_blank"
+                    class="header__social-link header__social-link--github"
+                >
+                    <IconGitHub />
                 </a>
 
                 <a
@@ -163,23 +187,4 @@
     .line {
         border-bottom: 1px solid rgba(black, 0.1);
     }
-
-    // .header {
-    //     // position: relative;
-
-    //     &::before {
-    //         content: "";
-    //         display: block;
-    //         position: absolute;
-    //         margin: auto;
-    //         left: 0;
-    //         right: auto;
-    //         top: auto;
-    //         bottom: 0;
-    //         animation: var(--progress);
-    //         height: 4px;
-    //         background-color: rgb(255, 208, 0);
-    //         z-index: 1;
-    //     }
-    // }
 </style>
