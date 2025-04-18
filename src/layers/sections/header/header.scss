@@ -152,6 +152,11 @@
                 background-color: rgba($base-color, 0.3);
             }
 
+            &:active {
+                transition: none;
+                background-color: transparent;
+            }
+
             svg {
                 width: var(--icon-size);
                 height: var(--icon-size);
