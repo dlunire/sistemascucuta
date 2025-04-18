@@ -152,6 +152,14 @@
                 background-color: rgba($base-color, 0.5);
             }
 
+            &:first-of-type {
+                border-left: 1px solid transparent;
+
+                &:hover {
+                    border-color: rgba(white, 0.1);
+                }
+            }
+
             &:active {
                 transition: none;
                 background-color: transparent;
