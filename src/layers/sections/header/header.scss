@@ -18,6 +18,13 @@
             calc(100% - var(--diagonal)) 100%,
             var(--diagonal) 100%);
 
+    .instagram__svg {
+        --icon-size: 25px;
+        --icon-width: var(--icon-size);
+        --icon-height: var(--icon-size);
+
+    }
+
     &__blackbar {
 
         background-color: black;
