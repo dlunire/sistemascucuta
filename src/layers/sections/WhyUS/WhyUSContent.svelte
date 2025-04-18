@@ -6,6 +6,7 @@
     import IconPos from "../../icons/IconPOS.svelte";
     import IconLicense from "../../icons/IconLicense.svelte";
     import IconWhatsApp from "../../icons/IconWhatsApp.svelte";
+    import Review from "./Review.svelte";
 
     const phone = "573174836272";
     const message = encodeURIComponent(
@@ -72,6 +73,8 @@
 
         <IconLicense slot="icon" />
     </Details>
+
+    <Review />
 </div>
 
 <!-- Barra lateral derecha en WhyUS -->
