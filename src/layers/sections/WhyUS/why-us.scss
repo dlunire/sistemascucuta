@@ -80,7 +80,7 @@
             background-color: rgba(black, 0.4);
 
             img {
-                transform: translateY(0);
+                transform: translateY(0) scale(1);
                 opacity: 1;
             }
 
@@ -116,7 +116,7 @@
             right: 0;
             top: 0;
             bottom: 0;
-            transform: translateY(100px);
+            transform: translateY(100px) scale(0.5);
             opacity: 0;
         }
     }
