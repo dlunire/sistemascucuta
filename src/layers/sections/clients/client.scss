@@ -124,7 +124,7 @@
         align-items: center;
         justify-content: center;
         opacity: 0;
-        color: $instagram-color-03;
+        color: color.adjust($color: rgb(255, 53, 171), $lightness: 0%);
     }
 
     &__svg {
