@@ -117,7 +117,7 @@
             justify-content: space-between;
 
             --icon-color: white;
-            --icon-size: 20px;
+            --icon-size: 18px;
             --icon-width: var(--icon-size);
             --icon-height: var(--icon-size);
         }
@@ -147,6 +147,10 @@
             --icon-size: 22px;
             --icon-width: var(--icon-size);
             --icon-height: var(--icon-size);
+
+            &:hover {
+                background-color: rgba($base-color, 0.3);
+            }
 
             svg {
                 width: var(--icon-size);
