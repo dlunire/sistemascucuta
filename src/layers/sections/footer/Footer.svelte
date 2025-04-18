@@ -122,7 +122,7 @@
             <ul class="footer__menu footer__menu--social-media">
                 <li class="footer__list footer__list--social-media">
                     <a
-                        href="https://www.instagram.com/norsireesp"
+                        href="https://www.instagram.com/sistemascucuta/"
                         class="footer__menu-link footer__menu-link--socialmedia"
                         aria-label="Instagram"
                         rel="nofollow"
