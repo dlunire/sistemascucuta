@@ -151,6 +151,8 @@
         transition: 300ms ease;
         padding-bottom: 0;
         padding-top: 0;
+        border: 1px solid rgba($base-color, 0.3);
+        border-radius: 10px;
 
         &::marker {
             display: none;

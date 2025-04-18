@@ -21,7 +21,7 @@
         transition: 300ms ease;
         padding: 11px 20px;
 
-        border: 1px solid rgba($base-color, 0.3);
+        // border: 1px solid rgba($base-color, 0.3);
         border-radius: 5px;
 
         &:hover {
@@ -35,7 +35,6 @@
         background-color: white;
         transition: 3s ease;
         overflow: clip;
-        border: 1px solid $base-color;
         background-color: rgba($base-color, 0.05);
         color: $desaturate-base-color;
         border-radius: 0 0 5px 5px;
