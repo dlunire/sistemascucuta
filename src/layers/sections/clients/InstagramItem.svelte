@@ -4,6 +4,7 @@
 
     export let title: string = "Sin título";
     export let image: string = "image.png";
+    export let href: string = "#home";
 
     let show: boolean = true;
 
@@ -13,7 +14,14 @@
 </script>
 
 <article class="instagram__item">
-    <header class="instagram__header">
+    <a
+        {href}
+        {title}
+        aria-label={title}
+        class="instagram__header"
+        rel="nofollow"
+        target="_blank"
+    >
         {#if show}
             <img
                 src="./images/clients/{image}"
@@ -25,7 +33,7 @@
         {:else}
             <IconImage />
         {/if}
-    </header>
+    </a>
 
     <div class="instagram__content">
         <slot>Ver en Instagram</slot>
