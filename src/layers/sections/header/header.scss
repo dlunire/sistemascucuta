@@ -218,27 +218,7 @@
             }
 
             &--facebook {
-
-                &:hover {
-                    background-color: $facebook-color;
-                }
-
-                &:active {
-                    transition: none;
-                    background-color: rgba($facebook-color, 0.7);
-                }
-            }
-
-            &--instagram {
-
-                &:hover {
-                    background-color: black;
-                }
-
-                &:active {
-                    transition: none;
-                    background-color: transparent;
-                }
+                --icon-color: #{$facebook-color};
             }
         }
     }
