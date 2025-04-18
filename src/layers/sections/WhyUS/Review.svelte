@@ -5,9 +5,13 @@
     export let href: string = "#";
 
     let show: boolean = true;
+
+    function handle(event: MouseEvent): void {
+        // event.preventDefault();
+    }
 </script>
 
-<a {href} class="google" target="_blank" rel="nofollow">
+<a {href} class="google" target="_blank" rel="nofollow" on:click={handle}>
     <div class="google__header">
         {#if show}
             <img src="./images/google/review-01.png" alt={title} />
