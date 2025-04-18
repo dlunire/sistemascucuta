@@ -74,7 +74,10 @@
         <IconLicense slot="icon" />
     </Details>
 
-    <Review />
+    <Review
+        href="https://www.google.com/search?sca_esv=2dc50acae51cd50b&hl=es-419&authuser=0&sxsrf=AHTn8zrdXRoUH4SyVNOiQa1pBr-naH9seg%3A1744919446503&kgmid=%2Fg%2F11nfm_k1tj&q=SISTEMASCUCUTA&shndl=30&source=sh%2Fx%2Floc%2Fact%2Fm4%2F2"
+        title="Clientes satisfechos que ya confiaron en nosotros"
+    />
 </div>
 
 <!-- Barra lateral derecha en WhyUS -->
