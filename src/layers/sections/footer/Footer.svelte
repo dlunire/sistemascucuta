@@ -49,6 +49,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="footer__item">
             <h2 class="footer__title">
                 <IconMenuItem />
@@ -60,7 +61,7 @@
                         <a
                             href={item.link}
                             aria-label={item.label}
-                            class="footer__menu-link"
+                            class="footer__menu-link footer__menu-link--inner"
                         >
                             {#if item.icon}
                                 <svelte:component this={item.icon} />
@@ -85,7 +86,7 @@
                     <a
                         href="https://sistemascucuta.my.canva.site/"
                         target="_blank"
-                        class="footer__menu-link"
+                        class="footer__menu-link footer__menu-link--inner"
                     >
                         <IconPortfolio />
                         <span>Sistemas Cúcuta</span>
@@ -96,7 +97,7 @@
                     <a
                         href="https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy9jZjY5YTczZTAyNzNiMzQ3L0VVZXpjd0ktcDJrZ2dNX1BpZ0FBQUFBQmxVLTlDMEpxdFlSQWNyTlNiRUtqWHc&cid=CF69A73E0273B347&id=CF69A73E0273B347%2135535&parId=CF69A73E0273B347%218871&o=OneUp"
                         target="_blank"
-                        class="footer__menu-link"
+                        class="footer__menu-link footer__menu-link--inner"
                     >
                         <IconPortfolio />
                         <span>Portafolio</span>
@@ -107,7 +108,7 @@
                     <a
                         href="https://wa.me/c/573174836272"
                         target="_blank"
-                        class="footer__menu-link"
+                        class="footer__menu-link footer__menu-link--inner"
                     >
                         <IconForm />
                         <span>Catálogos</span>
